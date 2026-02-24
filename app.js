@@ -1017,7 +1017,12 @@
   var filterPanel = document.getElementById("filterPanel");
 
   filterToggleBtn.addEventListener("click", function () {
+    var willOpen = !filterPanel.classList.contains("open");
     filterPanel.classList.toggle("open");
+    // On mobile, snap drawer to full when opening filters
+    if (willOpen && window.innerWidth <= 768 && currentStop < 2) {
+      snapDrawerTo(2);
+    }
   });
 
   // ── Zoom reset control (below +/- buttons) ────
