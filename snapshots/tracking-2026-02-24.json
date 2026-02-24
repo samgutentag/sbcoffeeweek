@@ -57,10 +57,10 @@
       "directions-apple": 2,
       "directions-google": 4,
       "phone": 1,
-      "share": 1,
+      "share": 2,
       "un-upvote": 1,
       "upvote": 4,
-      "view": 751,
+      "view": 752,
       "website": 4
     },
     "Crushcakes and Cafe": {
@@ -98,7 +98,7 @@
       "instagram": 2,
       "share": 16,
       "upvote": 2,
-      "view": 960,
+      "view": 961,
       "website": 25
     },
     "Downtown Eats": {
@@ -135,7 +135,7 @@
       "share": 3,
       "un-upvote": 2,
       "upvote": 4,
-      "view": 1146,
+      "view": 1147,
       "website": 17
     },
     "Fresco At The Market": {
@@ -153,7 +153,7 @@
       "website": 11
     },
     "Goat Tree": {
-      "deeplink": 7,
+      "deeplink": 8,
       "directions-apple": 2,
       "directions-google": 6,
       "phone": 1,
@@ -237,7 +237,7 @@
       "phone": 1,
       "share": 2,
       "upvote": 1,
-      "view": 774,
+      "view": 775,
       "website": 6
     },
     "Mesa Burger": {
@@ -270,7 +270,7 @@
       "phone": 1,
       "share": 1,
       "upvote": 1,
-      "view": 1044,
+      "view": 1045,
       "website": 12
     },
     "Poke House": {
@@ -418,7 +418,7 @@
       "share": 1,
       "un-upvote": 1,
       "upvote": 5,
-      "view": 791,
+      "view": 792,
       "website": 10
     },
     "The Victor": {
@@ -476,7 +476,7 @@
       "directions-google": 8,
       "instagram": 1,
       "share": 3,
-      "view": 564,
+      "view": 566,
       "website": 1
     },
     "White Caps Beach Club": {
@@ -496,7 +496,7 @@
       "share": 4,
       "un-upvote": 2,
       "upvote": 3,
-      "view": 987,
+      "view": 988,
       "website": 15
     },
     "dinner": {
@@ -518,14 +518,14 @@
       "insights-view": 33,
       "restaurant-stats-view": 3,
       "restaurants-view": 23,
-      "stats-view": 186,
+      "stats-view": 188,
       "trends-view": 34
     },
     "tip-jar": {
       "tip-fries": 5,
       "tip-full": 14,
       "tip-half": 5,
-      "tip-jar-open": 237,
+      "tip-jar-open": 239,
       "tip-share": 2
     },
     "vegan": {
@@ -535,7 +535,7 @@
       "filter-tag": 108
     }
   },
-  "timestamp": "2026-02-24T09:46:30Z",
+  "timestamp": "2026-02-24T10:42:57Z",
   "upvotes": {
     "Arnoldi's": 1,
     "Caya": 4,
