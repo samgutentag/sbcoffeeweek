@@ -1501,6 +1501,79 @@
       });
     });
 
+    // Tip progress bar
+    fetch("tips.json")
+      .then(function (resp) {
+        if (!resp.ok) throw new Error("not found");
+        return resp.json();
+      })
+      .then(function (data) {
+        var total = data && typeof data.total === "number" ? data.total : 0;
+        if (total <= 0) return;
+        var max = total <= 25 ? 25 : Math.ceil((total + 10) / 10) * 10;
+        var fillEl = document.getElementById("tipProgressFill");
+        var labelsEl = document.getElementById("tipProgressLabels");
+        var progressEl = document.getElementById("tipProgress");
+        if (!fillEl || !labelsEl || !progressEl) return;
+
+        // Set fill width (minimum 8% so small amounts are visible)
+        var pct = Math.min((total / max) * 100, 100);
+        fillEl.style.width = Math.max(pct, 8) + "%";
+
+        // Current amount badge on the fill
+        var badge = document.createElement("span");
+        badge.className = "tip-progress-amount";
+        badge.textContent = "$" + total;
+        fillEl.appendChild(badge);
+
+        // Build tick marks and labels
+        var bar = fillEl.parentElement;
+        var ticksDiv = document.createElement("div");
+        ticksDiv.className = "tip-progress-ticks";
+
+        var capItem = THEME.itemLabel.charAt(0).toUpperCase() + THEME.itemLabel.slice(1);
+        var markerDescs = {
+          0: "Love of the game",
+          10: "Price of website",
+          20: capItem + " Time!"
+        };
+
+        var markers = [0, 10, 20, 25];
+        if (max > 25) markers.push(max);
+
+        markers.forEach(function (val) {
+          var pos = (val / max) * 100;
+
+          // Tick on bar
+          var tick = document.createElement("div");
+          tick.className = "tip-progress-tick";
+          tick.style.left = pos + "%";
+          ticksDiv.appendChild(tick);
+
+          // Label below (skip $25)
+          if (val === 25) return;
+          var label = document.createElement("span");
+          label.className = "tip-progress-label";
+          label.style.left = pos + "%";
+          var desc = markerDescs[val] || "";
+          label.innerHTML = "<strong>$" + val + "</strong>" + (desc ? desc : "");
+          labelsEl.appendChild(label);
+        });
+
+        bar.appendChild(ticksDiv);
+
+        // Donation note
+        var note = document.createElement("p");
+        note.className = "tip-progress-note";
+        note.innerHTML = 'Half of all donations over $20 go to the <a href="https://foodbanksbc.org" target="_blank" rel="noopener">Santa Barbara Food Bank</a>';
+        progressEl.appendChild(note);
+
+        progressEl.style.display = "";
+      })
+      .catch(function () {
+        /* silently ignore — bar stays hidden */
+      });
+
     // Share button
     var tipShareBtn = document.getElementById("tipShare");
     if (tipShareBtn) {
