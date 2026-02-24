@@ -8,27 +8,15 @@
 
   // Apply theme
   var pageTitle = document.getElementById("pageTitle");
-  if (pageTitle) pageTitle.textContent = THEME.eventName;
+  if (pageTitle) {
+    pageTitle.textContent = THEME.eventName;
+    pageTitle.href = THEME.siteUrl + "/";
+  }
   var backLink = document.getElementById("backLink");
   if (backLink) backLink.href = THEME.siteUrl + "/";
 
-  function escapeHtml(str) {
-    var div = document.createElement("div");
-    div.appendChild(document.createTextNode(str));
-    return div.innerHTML;
-  }
-
-  function slugify(str) {
-    return str.toLowerCase().replace(/[^a-z0-9]+/g, "-").replace(/^-|-$/g, "");
-  }
-
-  // Build area color lookup from data.js
-  var areaByName = {};
-  if (typeof restaurants !== "undefined") {
-    restaurants.forEach(function (r) {
-      areaByName[r.name] = r.area;
-    });
-  }
+  var escapeHtml = StatsUtils.escapeHtml;
+  var slugify = StatsUtils.slugify;
 
   // Labels for filter stats display
   var filterLabels = {

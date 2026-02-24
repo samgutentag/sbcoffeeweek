@@ -157,6 +157,56 @@ export default {
         }
       }
 
+      // Hourly breakdown — event counts grouped by hour
+      if (url.searchParams.get("hourly") === "true") {
+        try {
+          const sql = `SELECT toStartOfHour(timestamp) AS hour, blob1 AS action, SUM(1) AS count
+             FROM sbburgerweek
+             WHERE timestamp >= NOW() - INTERVAL '7' DAY AND blob1 != 'test'
+             GROUP BY hour, action
+             ORDER BY hour ASC
+             LIMIT 5000`;
+
+          const resp = await fetch(
+            `https://api.cloudflare.com/client/v4/accounts/${env.ACCOUNT_ID}/analytics_engine/sql`,
+            {
+              method: "POST",
+              headers: {
+                Authorization: `Bearer ${env.CF_API_TOKEN}`,
+                "Content-Type": "text/plain",
+              },
+              body: sql,
+            },
+          );
+
+          if (!resp.ok) {
+            return new Response("{}", {
+              headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "public, max-age=300" },
+            });
+          }
+
+          const data = await resp.json();
+          const result = {};
+
+          if (data.data) {
+            data.data.forEach(function (row) {
+              var hour = row.hour;
+              if (!hour) return;
+              if (!result[hour]) result[hour] = {};
+              result[hour][row.action] = Number(row.count) || 0;
+            });
+          }
+
+          return new Response(JSON.stringify(result), {
+            headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "public, max-age=300" },
+          });
+        } catch (e) {
+          return new Response("{}", {
+            headers: { ...corsHeaders, "Content-Type": "application/json", "Cache-Control": "public, max-age=300" },
+          });
+        }
+      }
+
       const upvotes = url.searchParams.get("upvotes") === "true";
 
       try {

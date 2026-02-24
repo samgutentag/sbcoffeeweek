@@ -2,8 +2,8 @@ name: Snapshot Tracking Data
 
 on:
   schedule:
-    # Daily at 7am PT (14:00 UTC) — runs Feb 19–28 only
-    - cron: "0 14 19-28 2 *"
+    # Hourly during Feb 19–28 — overwrites today's file to keep it fresh
+    - cron: "0 * 19-28 2 *"
   workflow_dispatch:
 
 permissions:
