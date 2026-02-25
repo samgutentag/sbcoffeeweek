@@ -28,7 +28,7 @@
       "share": 8,
       "un-upvote": 6,
       "upvote": 12,
-      "view": 1002,
+      "view": 1005,
       "website": 17
     },
     "Corner Tap": {
@@ -50,7 +50,7 @@
       "share": 5,
       "un-upvote": 3,
       "upvote": 6,
-      "view": 1195,
+      "view": 1200,
       "website": 18
     },
     "Crushcakes": {
@@ -71,7 +71,7 @@
       "share": 2,
       "un-upvote": 1,
       "upvote": 4,
-      "view": 1078,
+      "view": 1083,
       "website": 6
     },
     "Dang Burger": {
@@ -90,7 +90,7 @@
       "instagram": 2,
       "restaurant-detail": 2,
       "share": 3,
-      "view": 944,
+      "view": 945,
       "website": 5
     },
     "Dom's Taverna": {
@@ -178,7 +178,7 @@
       "phone": 2,
       "share": 1,
       "upvote": 1,
-      "view": 888,
+      "view": 891,
       "website": 15
     },
     "IV Deli Mart": {
@@ -215,7 +215,7 @@
       "share": 8,
       "un-upvote": 1,
       "upvote": 6,
-      "view": 1302,
+      "view": 1306,
       "website": 18
     },
     "Kyle's Kitchen (Calle Real)": {
@@ -225,7 +225,7 @@
       "share": 2,
       "un-upvote": 2,
       "upvote": 3,
-      "view": 673,
+      "view": 676,
       "website": 4
     },
     "Kyle's Kitchen (Hollister)": {
@@ -235,7 +235,7 @@
       "restaurant-detail": 1,
       "share": 1,
       "upvote": 1,
-      "view": 861,
+      "view": 862,
       "website": 11
     },
     "Little Bird Kitchen": {
@@ -309,7 +309,7 @@
       "share": 4,
       "un-upvote": 2,
       "upvote": 2,
-      "view": 1114,
+      "view": 1117,
       "website": 16
     },
     "SB Biergarten": {
@@ -344,7 +344,7 @@
       "share": 4,
       "un-upvote": 1,
       "upvote": 4,
-      "view": 1115,
+      "view": 1117,
       "website": 20
     },
     "Santa Ynez": {
@@ -366,7 +366,7 @@
       "phone": 8,
       "share": 4,
       "upvote": 2,
-      "view": 1135,
+      "view": 1139,
       "website": 17
     },
     "Shalhoob's Funk Zone Patio": {
@@ -416,7 +416,7 @@
       "share": 2,
       "un-upvote": 2,
       "upvote": 3,
-      "view": 775,
+      "view": 777,
       "website": 9
     },
     "The Nugget (Summerland)": {
@@ -504,7 +504,7 @@
       "share": 2,
       "un-upvote": 1,
       "upvote": 4,
-      "view": 1232,
+      "view": 1235,
       "website": 15
     },
     "Yellow Belly Tap": {
@@ -556,7 +556,7 @@
       "search": 1
     }
   },
-  "timestamp": "2026-02-25T11:37:24Z",
+  "timestamp": "2026-02-25T12:54:51Z",
   "upvotes": {
     "Arnoldi's": 1,
     "Caya": 6,
