@@ -5,6 +5,7 @@
 - [ ] search to include address
 - [ ] center map on my location
 - [ ] find burger closest to me
+- [ ] move post event stats behind admin panel
 
 ## Longer Term usability Ideas
 
