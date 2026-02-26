@@ -48,7 +48,7 @@
       "website": 8
     },
     "Cristino's Bakery": {
-      "deeplink": 35,
+      "deeplink": 36,
       "directions-apple": 1,
       "directions-google": 10,
       "instagram": 2,
@@ -57,7 +57,7 @@
       "sidebar-view": 7,
       "un-upvote": 3,
       "upvote": 6,
-      "view": 1297,
+      "view": 1298,
       "website": 20
     },
     "Crushcakes": {
@@ -74,14 +74,14 @@
       "website": 7
     },
     "Crushcakes and Cafe": {
-      "deeplink": 7,
+      "deeplink": 8,
       "directions-apple": 3,
       "directions-google": 8,
       "share": 2,
       "sidebar-view": 6,
       "un-upvote": 1,
       "upvote": 4,
-      "view": 1185,
+      "view": 1186,
       "website": 6
     },
     "Dang Burger": {
@@ -95,7 +95,7 @@
       "website": 8
     },
     "Dave's Dogs Grill": {
-      "deeplink": 8,
+      "deeplink": 9,
       "directions-apple": 5,
       "directions-google": 11,
       "instagram": 3,
@@ -115,7 +115,7 @@
       "sidebar-view": 9,
       "un-upvote": 1,
       "upvote": 4,
-      "view": 1185,
+      "view": 1187,
       "website": 27
     },
     "Downtown Eats": {
@@ -142,11 +142,11 @@
       "sidebar-view": 7,
       "un-upvote": 2,
       "upvote": 6,
-      "view": 1061,
+      "view": 1062,
       "website": 15
     },
     "Finch and Fork": {
-      "deeplink": 17,
+      "deeplink": 18,
       "directions-apple": 3,
       "directions-google": 15,
       "instagram": 2,
@@ -156,7 +156,7 @@
       "sidebar-view": 7,
       "un-upvote": 2,
       "upvote": 6,
-      "view": 1466,
+      "view": 1467,
       "website": 20
     },
     "Fresco At The Market": {
@@ -168,14 +168,14 @@
       "website": 3
     },
     "Gala": {
-      "deeplink": 7,
+      "deeplink": 10,
       "directions-apple": 4,
       "directions-google": 12,
       "instagram": 1,
       "restaurant-detail": 1,
       "share": 11,
       "sidebar-view": 11,
-      "view": 1023,
+      "view": 1028,
       "website": 15
     },
     "Goat Tree": {
@@ -358,14 +358,14 @@
       "instagram": 2,
       "phone": 2,
       "share": 6,
-      "sidebar-view": 3,
+      "sidebar-view": 4,
       "un-upvote": 2,
       "upvote": 5,
       "view": 1030,
       "website": 20
     },
     "Sama San Roque": {
-      "deeplink": 13,
+      "deeplink": 14,
       "directions-apple": 5,
       "directions-google": 11,
       "instagram": 2,
@@ -374,7 +374,7 @@
       "sidebar-view": 12,
       "un-upvote": 2,
       "upvote": 6,
-      "view": 1154,
+      "view": 1155,
       "website": 16
     },
     "Santa Barbara Fish Market": {
@@ -511,7 +511,7 @@
       "restaurant-detail": 1,
       "share": 3,
       "sidebar-view": 7,
-      "view": 1180,
+      "view": 1182,
       "website": 16
     },
     "Third Window Brewing (Carpinteria)": {
@@ -664,7 +664,7 @@
       "insights-view": 63,
       "restaurant-stats-view": 3,
       "restaurants-view": 58,
-      "stats-view": 277,
+      "stats-view": 282,
       "trends-view": 64
     },
     "the": {
@@ -711,7 +711,7 @@
       "search": 1
     }
   },
-  "timestamp": "2026-02-26T05:54:49Z",
+  "timestamp": "2026-02-26T06:54:44Z",
   "upvotes": {
     "Arnoldi's": 2,
     "Caya": 6,
