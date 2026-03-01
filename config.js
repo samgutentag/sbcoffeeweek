@@ -78,3 +78,29 @@ const THEME = {
   // The actual API key should be stored as a GitHub repo secret: GOOGLE_PLACES_API_KEY
   googlePlacesApiKey: null,
 };
+
+// Next event promo (shown in off-season banner). null for generic "check back" message.
+THEME.nextEvent = null;
+
+function getEventState() {
+  var now = new Date();
+  var liveDate = THEME.dataLiveDate ? new Date(THEME.dataLiveDate + "T00:01:00") : null;
+  var startDate = THEME.eventStartDate ? new Date(THEME.eventStartDate + "T00:00:00") : null;
+  var endDate = THEME.eventEndDate ? new Date(THEME.eventEndDate + "T23:59:59") : null;
+  if (!THEME.trackUrl) return "off-season";
+  if (endDate && now > endDate) return "post-event";
+  if (startDate && now >= startDate) return "during";
+  if (liveDate && now >= liveDate) return "pre-event";
+  return "off-season";
+}
+
+function canCastVotes() {
+  var state = getEventState();
+  if (state === "pre-event" || state === "during") return true;
+  if (state === "post-event" && THEME.eventEndDate) {
+    var grace = new Date(THEME.eventEndDate + "T23:59:59");
+    grace.setDate(grace.getDate() + 5);
+    return new Date() <= grace;
+  }
+  return false;
+}

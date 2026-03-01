@@ -226,11 +226,17 @@
     }
   }
 
+  // ── Event lifecycle state ────────────────────
+  var __eventState = getEventState();
+  var __showUpvotes = __eventState !== "off-season";
+  var __canVote = canCastVotes();
+
   // ── Hours data ──────────────────────────────
   var hoursData = {};
   var hoursLoaded = false;
   var activeHoursFilter = null;
 
+  if (__eventState === "pre-event" || __eventState === "during")
   fetch("../../hours.json")
     .then(function (resp) {
       if (!resp.ok) throw new Error("not found");
@@ -442,17 +448,20 @@
       "<span>" +
       escapeHtml(r.address) +
       "</span>" +
-      '<button class="upvote-btn popup-upvote' +
-      (isUpvoted ? " upvoted" : "") +
-      (upvoteCount === 0 ? " zero" : "") +
-      '" data-name="' +
-      escapeHtml(r.name) +
-      '">' +
-      '<span class="upvote-heart">\uD83D\uDC4D</span>' +
-      (upvoteCount > 0
-        ? '<span class="upvote-count">' + upvoteCount + "</span>"
+      (__showUpvotes
+        ? '<button class="upvote-btn popup-upvote' +
+          (isUpvoted ? " upvoted" : "") +
+          (upvoteCount === 0 ? " zero" : "") +
+          (!__canVote ? " frozen" : "") +
+          '" data-name="' +
+          escapeHtml(r.name) +
+          '">' +
+          '<span class="upvote-heart">\uD83D\uDC4D</span>' +
+          (upvoteCount > 0
+            ? '<span class="upvote-count">' + upvoteCount + "</span>"
+            : "") +
+          "</button>"
         : "") +
-      "</button>" +
       "</div>" +
       '<div class="popup-directions-btns">' +
       '<a href="' +
@@ -717,6 +726,7 @@
     e.stopPropagation();
     var name = btn.getAttribute("data-name");
     if (!name) return;
+    if (!canCastVotes()) return;
 
     var wasUpvoted = upvotedSet.has(name);
     if (wasUpvoted) {
@@ -1008,20 +1018,23 @@
       rightCol.className = "sidebar-right-col";
       rightCol.appendChild(badge);
 
-      var upvoteC = upvoteCounts[r.name] || 0;
-      var isUpvoted = upvotedSet.has(r.name);
-      var upBtn = document.createElement("button");
-      upBtn.setAttribute("data-name", r.name);
-      upBtn.className =
-        "upvote-btn sidebar-upvote" +
-        (isUpvoted ? " upvoted" : "") +
-        (upvoteC === 0 ? " zero" : "");
-      upBtn.innerHTML =
-        '<span class="upvote-heart">\uD83D\uDC4D</span>' +
-        (upvoteC > 0
-          ? '<span class="upvote-count">' + upvoteC + "</span>"
-          : "");
-      rightCol.appendChild(upBtn);
+      if (__showUpvotes) {
+        var upvoteC = upvoteCounts[r.name] || 0;
+        var isUpvoted = upvotedSet.has(r.name);
+        var upBtn = document.createElement("button");
+        upBtn.setAttribute("data-name", r.name);
+        upBtn.className =
+          "upvote-btn sidebar-upvote" +
+          (isUpvoted ? " upvoted" : "") +
+          (upvoteC === 0 ? " zero" : "") +
+          (!__canVote ? " frozen" : "");
+        upBtn.innerHTML =
+          '<span class="upvote-heart">\uD83D\uDC4D</span>' +
+          (upvoteC > 0
+            ? '<span class="upvote-count">' + upvoteC + "</span>"
+            : "");
+        rightCol.appendChild(upBtn);
+      }
 
       li.appendChild(rightCol);
 
@@ -1673,33 +1686,44 @@
     });
   }
 
-  // Banner click → reopen
-  if (concludedBanner) {
-    concludedBanner.addEventListener("click", openConcluded);
+  // Banner + concluded logic based on event lifecycle state
+  var bannerText = document.getElementById("concludedBannerText");
+
+  function showBanner(text, clickHandler) {
+    if (!concludedBanner) return;
+    if (bannerText) bannerText.innerHTML = text;
+    concludedBanner.style.display = "";
+    if (clickHandler) {
+      concludedBanner.addEventListener("click", clickHandler);
+    }
+    var app = document.querySelector(".app");
+    if (app) {
+      var bannerH = concludedBanner.offsetHeight;
+      app.style.height = "calc(100% - 36px - " + bannerH + "px)";
+    }
   }
 
-  // Date-driven concluded: only show if eventEndDate is set and in the past
-  var eventOver =
-    THEME.eventEndDate &&
-    new Date() > new Date(THEME.eventEndDate + "T23:59:59");
-  if (eventOver) {
-    if (concludedBanner) {
-      concludedBanner.style.display = "";
-      // Adjust .app height to account for banner
-      var app = document.querySelector(".app");
-      if (app) {
-        var bannerH = concludedBanner.offsetHeight;
-        app.style.height =
-          "calc(100% - 36px - " + bannerH + "px)";
-      }
-    }
-    // Auto-open on first visit
+  if (__eventState === "post-event") {
+    showBanner(THEME.emoji + " " + THEME.eventName + " has wrapped! Thanks for joining.", openConcluded);
+    // Auto-open concluded modal on first visit
     try {
       if (!localStorage.getItem(concludedSeenKey)) {
         openConcluded();
       }
     } catch (e) {
       openConcluded();
+    }
+  } else if (__eventState === "off-season") {
+    if (THEME.nextEvent) {
+      var ne = THEME.nextEvent;
+      var neText = "Next up: <strong>" + ne.name + "</strong> | " + ne.dates;
+      if (ne.url) {
+        showBanner(neText, function () { window.open(ne.url, "_blank"); });
+      } else {
+        showBanner(neText);
+      }
+    } else {
+      showBanner("Check back for the next event!");
     }
   }
 })();

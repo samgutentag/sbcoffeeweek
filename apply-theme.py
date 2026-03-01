@@ -279,10 +279,10 @@ def update_index_html(cfg):
             html,
         )
 
-    # Concluded banner text
+    # Concluded banner text (with <span> wrapper)
     html = re.sub(
-        r'(<div class="concluded-banner"[^>]*>)\s*[^<]*(</div>)',
-        rf"\g<1>\n      {emoji} {event} has wrapped! Thanks for joining.\n    \g<2>",
+        r'(<div class="concluded-banner"[^>]*>)\s*<span[^>]*>[^<]*</span>\s*(</div>)',
+        rf'\g<1>\n      <span id="concludedBannerText">{emoji} {event} has wrapped! Thanks for joining.</span>\n    \g<2>',
         html,
     )
 
@@ -420,10 +420,10 @@ def update_embed_map_index(cfg):
             html,
         )
 
-    # Concluded banner text
+    # Concluded banner text (with <span> wrapper)
     html = re.sub(
-        r'(<div class="concluded-banner"[^>]*>)\s*[^<]*(</div>)',
-        rf"\g<1>\n      {emoji} {event} has wrapped! Thanks for joining.\n    \g<2>",
+        r'(<div class="concluded-banner"[^>]*>)\s*<span[^>]*>[^<]*</span>\s*(</div>)',
+        rf'\g<1>\n      <span id="concludedBannerText">{emoji} {event} has wrapped! Thanks for joining.</span>\n    \g<2>',
         html,
     )
 
@@ -605,10 +605,10 @@ def update_stats_html(cfg):
         html,
     )
 
-    # Concluded banner text
+    # Concluded banner text (with <span> wrapper)
     html = re.sub(
-        r'(<div class="concluded-banner">)\s*[^<]*(<a)',
-        rf"\g<1>\n      {emoji} {event} has wrapped! \g<2>",
+        r'(<div class="concluded-banner"[^>]*>)\s*<span[^>]*>[^<]*</span>\s*(<a)',
+        rf'\g<1>\n      <span id="concludedBannerText">{emoji} {event} has wrapped!</span> \g<2>',
         html,
     )
 

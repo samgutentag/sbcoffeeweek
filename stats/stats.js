@@ -15,14 +15,17 @@
   var backLink = document.getElementById("backLink");
   if (backLink) backLink.href = THEME.siteUrl + "/";
 
-  // Date-driven concluded banner
-  var concludedBanner = document.querySelector(".concluded-banner");
-  if (
-    concludedBanner &&
-    THEME.eventEndDate &&
-    new Date() > new Date(THEME.eventEndDate + "T23:59:59")
-  ) {
+  // State-driven concluded banner
+  var concludedBanner = document.getElementById("concludedBanner");
+  var bannerTextEl = document.getElementById("concludedBannerText");
+  var __statsEventState = typeof getEventState === "function" ? getEventState() : "off-season";
+  if (concludedBanner && (__statsEventState === "post-event" || __statsEventState === "off-season")) {
     concludedBanner.style.display = "";
+    if (bannerTextEl) {
+      if (__statsEventState === "off-season") {
+        bannerTextEl.textContent = "Showing final results from " + THEME.eventName;
+      }
+    }
   }
 
   var escapeHtml = StatsUtils.escapeHtml;
@@ -290,8 +293,12 @@
 
     var note = document.getElementById("footerNote");
     if (rows.length > 0) {
-      note.textContent =
-        "Updated every 5 minutes. Data collected since event start (Feb 19).";
+      if (__statsEventState === "off-season") {
+        note.textContent = "Showing final results from " + THEME.eventName + ".";
+      } else {
+        note.textContent =
+          "Updated every 5 minutes. Data collected since event start (Feb 19).";
+      }
     } else {
       note.textContent =
         "No tracking data yet. Stats will appear once the event starts.";
@@ -787,6 +794,8 @@
       });
   } else {
     document.getElementById("footerNote").textContent =
-      "No tracking data yet. Stats will appear once the event starts.";
+      __statsEventState === "off-season"
+        ? "Showing final results from " + THEME.eventName + "."
+        : "No tracking data yet. Stats will appear once the event starts.";
   }
 })();

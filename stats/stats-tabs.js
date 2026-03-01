@@ -6,6 +6,12 @@
   var panels = document.querySelectorAll(".tab-panel");
   var loaded = { activity: true }; // Activity tab always loaded
 
+  // Hide Post-Event tab in off-season
+  if (typeof getEventState === "function" && getEventState() === "off-season") {
+    var peBtn = document.querySelector('.tab-btn[data-tab="post-event"]');
+    if (peBtn) peBtn.style.display = "none";
+  }
+
   // Lazy-load CSS and JS for a tab
   function loadTab(name) {
     if (loaded[name]) return Promise.resolve();
@@ -85,6 +91,11 @@
 
     // Map valid tab names
     var validTabs = { activity: 1, insights: 1, trends: 1, restaurants: 1, "post-event": 1 };
+    // Redirect post-event to activity in off-season
+    if (tabName === "post-event" && typeof getEventState === "function" && getEventState() === "off-season") {
+      tabName = "activity";
+      window.location.hash = "";
+    }
     if (validTabs[tabName]) {
       switchTab(tabName);
     } else {

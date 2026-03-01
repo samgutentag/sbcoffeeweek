@@ -1280,6 +1280,12 @@ header h1 span {
   opacity: 1;
 }
 
+.upvote-btn.frozen {
+  opacity: 0.5;
+  pointer-events: none;
+  cursor: default;
+}
+
 .upvote-heart {
   font-size: 0.85rem;
   line-height: 1;
