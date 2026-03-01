@@ -33,12 +33,35 @@ var StatsUtils = (function () {
     return map;
   }
 
+  // Filter hourly data keys to the event window (eventStartDate T00:00 through eventEndDate+1 T06:00)
+  function filterHourlyToEvent(hourlyData) {
+    if (!hourlyData || !THEME.eventStartDate || !THEME.eventEndDate) return hourlyData;
+    var start = new Date(THEME.eventStartDate + "T00:00:00");
+    var endPlusOne = new Date(THEME.eventEndDate + "T00:00:00");
+    endPlusOne.setDate(endPlusOne.getDate() + 1);
+    endPlusOne.setHours(6, 0, 0, 0); // allow late-night spillover
+    var filtered = {};
+    Object.keys(hourlyData).forEach(function (key) {
+      var d = new Date(key.replace(" ", "T"));
+      if (d >= start && d <= endPlusOne) {
+        filtered[key] = hourlyData[key];
+      }
+    });
+    return filtered;
+  }
+
   // Fetch all available daily snapshots
   function fetchAllSnapshots(basePath) {
     basePath = basePath || "../snapshots/";
     var today = new Date();
+    var endCap = today;
+    if (THEME.eventEndDate) {
+      var dayAfterEnd = new Date(THEME.eventEndDate + "T00:00:00");
+      dayAfterEnd.setDate(dayAfterEnd.getDate() + 1);
+      if (dayAfterEnd < today) endCap = dayAfterEnd;
+    }
     var dates = [];
-    for (var d = new Date(THEME.eventStartDate); d <= today; d.setDate(d.getDate() + 1)) {
+    for (var d = new Date(THEME.eventStartDate); d <= endCap; d.setDate(d.getDate() + 1)) {
       dates.push(d.toISOString().slice(0, 10));
     }
 
@@ -64,5 +87,6 @@ var StatsUtils = (function () {
     formatDate: formatDate,
     buildAreaByName: buildAreaByName,
     fetchAllSnapshots: fetchAllSnapshots,
+    filterHourlyToEvent: filterHourlyToEvent,
   };
 })();

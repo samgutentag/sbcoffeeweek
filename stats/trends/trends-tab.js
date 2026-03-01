@@ -121,6 +121,7 @@
   }
 
   function renderHourlyViewsChart(hourlyData) {
+    hourlyData = StatsUtils.filterHourlyToEvent(hourlyData);
     var hours = Object.keys(hourlyData).sort();
     var labels = hours.map(formatHour);
 
@@ -164,6 +165,7 @@
   }
 
   function renderHourlyEngagementChart(hourlyData) {
+    hourlyData = StatsUtils.filterHourlyToEvent(hourlyData);
     var hours = Object.keys(hourlyData).sort();
     var labels = hours.map(formatHour);
 

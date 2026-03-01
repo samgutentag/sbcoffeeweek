@@ -533,10 +533,11 @@
       document.getElementById("chartModalTitle").textContent = label + " per Hour";
       overlay.classList.add("open");
 
+      var filtered = StatsUtils.filterHourlyToEvent(data);
       var hourMap = {};
-      Object.keys(data).forEach(function (hour) {
+      Object.keys(filtered).forEach(function (hour) {
         var total = 0;
-        keys.forEach(function (k) { total += data[hour][k] || 0; });
+        keys.forEach(function (k) { total += filtered[hour][k] || 0; });
         hourMap[hour] = total;
       });
 
@@ -550,6 +551,7 @@
   function openFilterChartModal(filterKey, label) {
     fetchHourlyLabel(filterKey).then(function (data) {
       if (!data) return;
+      data = StatsUtils.filterHourlyToEvent(data);
 
       var overlay = document.getElementById("chartModalOverlay");
       document.getElementById("chartModalTitle").textContent = label + " (Cumulative)";
@@ -594,6 +596,7 @@
 
     if (chartInstance) { chartInstance.destroy(); chartInstance = null; }
 
+    hourlyData = StatsUtils.filterHourlyToEvent(hourlyData);
     var dayMap = {};
     Object.keys(hourlyData).forEach(function (hour) {
       var d = new Date(hour.replace(" ", "T") + "Z");
