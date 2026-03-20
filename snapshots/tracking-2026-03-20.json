@@ -1,7 +1,8 @@
 {
   "detail": {
     "CAYA Restaurant": {
-      "sidebar-view": 1
+      "sidebar-view": 1,
+      "view": 5
     },
     "Carp Moon Caf\u00e9": {
       "sidebar-view": 1
@@ -12,16 +13,40 @@
       "view": 1
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
-      "view": 1
+      "view": 3
     },
     "Del Pueblo Caf\u00e9": {
+      "view": 4
+    },
+    "Dune Coffee (Calle Real)": {
+      "view": 3
+    },
+    "Dune Coffee (State St)": {
       "view": 2
     },
     "Dune Coffee (Storke)": {
-      "view": 1
+      "view": 3
+    },
+    "Lighthouse Coffee (Calle Real)": {
+      "view": 8
     },
     "Lighthouse Coffee (Turnpike)": {
+      "view": 2
+    },
+    "Marisella": {
       "view": 1
+    },
+    "Renaud's Patisserie (1324 State)": {
+      "view": 1
+    },
+    "Renaud's Patisserie (Gelson's)": {
+      "view": 1
+    },
+    "Sama Sama Kitchen": {
+      "deeplink": 1,
+      "sidebar-view": 2,
+      "view": 3,
+      "website": 1
     },
     "coffeeWithFood": {
       "filter-tag": 2
@@ -35,6 +60,6 @@
       "trends-view": 2
     }
   },
-  "timestamp": "2026-03-20T11:35:08Z",
+  "timestamp": "2026-03-20T13:08:01Z",
   "upvotes": {}
 }
