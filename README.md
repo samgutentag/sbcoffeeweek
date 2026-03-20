@@ -1,6 +1,6 @@
-# SB Burger Week 2026 Map
+# SB Coffee Week 2026 Map
 
-[![Hits](https://hits.sh/sbburgerweekmap.com.svg)](https://hits.sh/sbburgerweekmap.com/)
+[![Hits](https://hits.sh/sbcoffeeweekmap.com.svg)](https://hits.sh/sbcoffeeweekmap.com/)
 
 An interactive map of all participating restaurants for [Santa Barbara Burger Week 2026](https://www.independent.com/2026/02/18/go-beast-mode-for-santa-barbara-burger-week-2026/) (Feb 19–25). Browse, filter, share, and plan your burger week from your phone or desktop.
 
@@ -565,11 +565,11 @@ The map can be embedded on other websites via an iframe. A showcase page at `/em
 
 ```html
 <iframe
-  src="https://sbburgerweekmap.com/embed/map"
+  src="https://sbcoffeeweekmap.com/embed/map"
   width="100%"
   height="600"
   style="border: none; border-radius: 8px;"
-  title="SB Burger Week 2026 Interactive Map"
+  title="SB Coffee Week 2026 Interactive Map"
   loading="lazy"
   allowfullscreen
 ></iframe>

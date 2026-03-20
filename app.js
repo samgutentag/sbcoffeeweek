@@ -388,11 +388,12 @@
     return ranges.length > 0 ? ranges.join(", ") : "Closed today";
   }
 
-  // Dietary tag icon helper
+  // Category tag icon helper
+  // TODO: Replace placeholder SVG icons with coffee-themed icons from https://www.svgrepo.com
   var tagDefs = [
-    { key: "vegetarian", icon: "icon-vegetarian.svg", label: "Vegetarian" },
-    { key: "glutenFree", icon: "icon-gf.svg", label: "Gluten Free" },
-    { key: "hasFries", icon: "icon-fries.svg", label: "Fries" },
+    { key: "justCoffee", icon: "icon-vegetarian.svg", label: "Just Coffee" },
+    { key: "coffeeWithFood", icon: "icon-gf.svg", label: "Coffee + Food" },
+    { key: "coffeeAsCocktail", icon: "icon-fries.svg", label: "Cocktail" },
   ];
 
   function getDietaryIconsHtml(r) {

@@ -1,14 +1,9 @@
 name: Fetch Restaurant Hours
 
 on:
-  # Schedule disabled between events. To re-enable for the next event:
-  # 1. Uncomment the schedule block below
-  # 2. Update the cron day range to cover 2 days before → 1 day after the event
-  # 3. Commit and push
-  #
-  # schedule:
-  #   # Daily at 6am PT (13:00 UTC) — adjust date range for next event
-  #   - cron: "0 13 17-26 2 *"
+  schedule:
+    # Daily at 6am PT (13:00 UTC) — adjust date range for next event
+    - cron: "0 13 17-29 3 *"
   workflow_dispatch:
 
 permissions:

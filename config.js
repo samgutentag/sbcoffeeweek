@@ -4,67 +4,67 @@
 
 const THEME = {
   // Event identity
-  eventName: "SB Burger Week 2026",
-  eventDates: "Feb 19–25",
-  emoji: "🍔",
+  eventName: "SB Coffee Week 2026",
+  eventDates: "Mar 19–28",
+  emoji: "☕",
 
   // OG image text (two lines for the social preview image)
   ogLine1: "Santa Barbara",
-  ogLine2: "Burger Week 2026",
+  ogLine2: "Coffee Week 2026",
 
   // Labels (what to call the featured item)
-  itemLabel: "burger",
-  itemLabelPlural: "burgers",
+  itemLabel: "coffee",
+  itemLabelPlural: "coffees",
 
   // Site URL (used for OG meta tags, embed snippets, print page)
-  siteUrl: "https://sbburgerweekmap.com",
+  siteUrl: "https://sbcoffeeweekmap.com",
 
   // Description (used for meta tags)
   description:
-    "Interactive map of all participating restaurants. Search, filter by area, and get directions.",
+    "Interactive map of all participating cafes and restaurants. Search, filter by area, and get directions.",
 
   // Header
   sourceLabel: "Source: The Independent",
-  sourceUrl: "https://www.independent.com/2026/02/18/go-beast-mode-for-santa-barbara-burger-week-2026",
+  sourceUrl: "https://www.independent.com/2026/03/18/here-comes-santa-barbara-coffee-week/",
 
   // Venmo tip jar (set venmoUser to null to hide the link)
   venmoUser: "samgutentag",
-  venmoNote: "Buy me a burger?",
+  venmoNote: "Buy me a coffee?",
 
   // Tip jar tiers — size: "s" (custom emoji), "m" (half theme emoji), "l" (full theme emoji)
   // The "m" tier is auto-featured (orange border). Tracking: tip-s, tip-m, tip-l
   tipTiers: [
-    { size: "s", label: "Side of Fries", emoji: "🍟", amount: 1 },
-    { size: "m", label: "Half a Burger", amount: 5 },
-    { size: "l", label: "Full Burger", amount: 10 },
+    { size: "s", label: "Side of Biscotti", emoji: "🍪", amount: 1 },
+    { size: "m", label: "Coffee", amount: 5 },
+    { size: "l", label: "Coffee and a Snack", amount: 10 },
   ],
 
   // LocalStorage namespace
-  storageKey: "sbburgerweek-checklist",
+  storageKey: "sbcoffeeweek-checklist",
 
   // Print page
-  printTitle: "SB Burger Week 2026 — My Picks",
+  printTitle: "SB Coffee Week 2026 — My Picks",
 
   // Event start date — used for analytics/stats time filters (ISO date)
-  eventStartDate: "2026-02-19",
+  eventStartDate: "2026-03-19",
 
   // Event end date — concluded banner/modal auto-shows after this date (ISO date, null to never show)
-  eventEndDate: "2026-02-25",
+  eventEndDate: "2026-03-28",
 
   // Map center and zoom level
   mapCenter: [34.42, -119.7],
   mapZoom: 13,
 
   // GitHub repo URL (used in About modal, footer links)
-  githubRepoUrl: "https://github.com/samgutentag/sbburgerweek",
+  githubRepoUrl: "https://github.com/samgutentag/sbcoffeeweek",
 
   // Data launch date — before this date, data.js (skeleton) is loaded.
   // On or after this date, data-<year>.js (full menu details) is loaded.
   // Format: "YYYY-MM-DD" in local time, activates at 12:01 AM. Set null to always load full data.
-  dataLiveDate: "2026-02-18",
+  dataLiveDate: "2026-03-18",
 
   // Event tracking — Cloudflare Worker URL (null to disable)
-  trackUrl: "https://sbburgerweek-track.developer-95b.workers.dev",
+  trackUrl: null,
 
   // Cloudflare Web Analytics (null to disable)
   cfAnalyticsToken: null,
