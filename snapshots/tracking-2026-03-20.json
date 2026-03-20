@@ -1,15 +1,26 @@
 {
   "detail": {
+    "CAYA Restaurant": {
+      "sidebar-view": 1
+    },
+    "Carp Moon Caf\u00e9": {
+      "sidebar-view": 1
+    },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "sidebar-view": 1
+    },
+    "coffeeWithFood": {
+      "filter-tag": 2
     },
     "open": {
       "filter-hours": 1
     },
     "stats": {
-      "stats-view": 1
+      "insights-view": 2,
+      "stats-view": 2,
+      "trends-view": 2
     }
   },
-  "timestamp": "2026-03-20T07:48:57Z",
+  "timestamp": "2026-03-20T08:49:02Z",
   "upvotes": {}
 }
