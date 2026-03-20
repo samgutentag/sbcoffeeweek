@@ -67,7 +67,7 @@ const THEME = {
   trackUrl: "https://sbcoffeeweek-track.developer-95b.workers.dev",
 
   // Cloudflare Web Analytics (null to disable)
-  cfAnalyticsToken: null,
+  cfAnalyticsToken: "7eb64549879140bea6e3446f4bbc3e5d",
 
   // Contact email domain — generates sb{itemLabel}week{year}@{domain}
   // Set null to hide the contact link
