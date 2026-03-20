@@ -16,7 +16,7 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 34
+      "view": 36
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "view": 36
@@ -38,7 +38,7 @@
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 40
+      "view": 42
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -46,11 +46,12 @@
     },
     "Goodland Waffles & Melts": {
       "restaurant-detail": 1,
-      "view": 34
+      "view": 36
     },
     "Lighthouse Coffee (Calle Real)": {
+      "deeplink": 1,
       "sidebar-view": 1,
-      "view": 35
+      "view": 36
     },
     "Lighthouse Coffee (Chapala)": {
       "sidebar-view": 1,
@@ -58,13 +59,13 @@
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
-      "view": 18
+      "view": 19
     },
     "Lighthouse Coffee (Haley)": {
       "view": 22
     },
     "Lighthouse Coffee (Turnpike)": {
-      "view": 35,
+      "view": 36,
       "website": 1
     },
     "Lucky Llama Coffee House": {
@@ -92,9 +93,9 @@
       "view": 18
     },
     "Renaud's Patisserie (Coast Village)": {
-      "deeplink": 8,
+      "deeplink": 9,
       "sidebar-view": 1,
-      "view": 22
+      "view": 23
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 20
@@ -140,7 +141,7 @@
       "trends-view": 4
     }
   },
-  "timestamp": "2026-03-20T22:33:02Z",
+  "timestamp": "2026-03-20T23:33:05Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
