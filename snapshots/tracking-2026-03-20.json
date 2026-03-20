@@ -1,8 +1,11 @@
 {
   "detail": {
+    "All": {
+      "filter-area": 3
+    },
     "CAYA Restaurant": {
       "sidebar-view": 1,
-      "view": 12
+      "view": 14
     },
     "Carp Moon Caf\u00e9": {
       "sidebar-view": 1,
@@ -11,87 +14,93 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 17
+      "view": 18
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
-      "view": 12
+      "view": 19
     },
     "Del Pueblo Caf\u00e9": {
-      "view": 11
+      "view": 19
     },
     "Dune Coffee (Anacapa)": {
       "view": 14
     },
     "Dune Coffee (Calle Real)": {
-      "view": 11
+      "view": 14
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 17
+      "view": 19
     },
     "Dune Coffee (Storke)": {
-      "view": 11
+      "view": 13
     },
     "Goodland Waffles & Melts": {
-      "view": 14
+      "view": 15
     },
     "Lighthouse Coffee (Calle Real)": {
-      "view": 16
-    },
-    "Lighthouse Coffee (Chapala)": {
       "view": 18
     },
+    "Lighthouse Coffee (Chapala)": {
+      "view": 21
+    },
     "Lighthouse Coffee (Cliff Dr)": {
-      "view": 6
+      "view": 9
     },
     "Lighthouse Coffee (Haley)": {
       "view": 15
     },
     "Lighthouse Coffee (Turnpike)": {
-      "view": 12
+      "view": 22
     },
     "Lucky Llama Coffee House": {
       "view": 4
     },
     "Marisella": {
-      "view": 10
+      "view": 12
+    },
+    "Montecito": {
+      "filter-area": 1
     },
     "Paloma": {
-      "view": 14
+      "view": 15
     },
     "Renaud's Patisserie (1324 State)": {
-      "view": 10
+      "view": 13
     },
     "Renaud's Patisserie (3315 State)": {
-      "view": 6
+      "view": 10
     },
     "Renaud's Patisserie (Coast Village)": {
       "view": 6
     },
     "Renaud's Patisserie (Gelson's)": {
-      "view": 10
+      "view": 14
     },
     "Sama Sama Kitchen": {
       "deeplink": 1,
       "sidebar-view": 2,
-      "view": 18,
+      "view": 21,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
       "share": 1,
-      "view": 18
+      "view": 21
     },
     "Third Window Brewing (Carpinteria)": {
-      "view": 4
+      "view": 6
     },
     "Third Window Brewing (Santa Barbara)": {
-      "view": 13
+      "view": 15
     },
     "coffeeWithFood": {
-      "filter-tag": 2
+      "filter-tag": 4
+    },
+    "justCoffee": {
+      "filter-tag": 1
     },
     "open": {
-      "filter-hours": 1
+      "filter-hours": 2
     },
     "stats": {
       "insights-view": 2,
@@ -99,6 +108,6 @@
       "trends-view": 2
     }
   },
-  "timestamp": "2026-03-20T14:46:27Z",
+  "timestamp": "2026-03-20T15:47:49Z",
   "upvotes": {}
 }
