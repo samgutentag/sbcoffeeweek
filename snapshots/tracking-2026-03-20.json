@@ -6,7 +6,7 @@
     "CAYA Restaurant": {
       "restaurant-detail": 1,
       "sidebar-view": 1,
-      "view": 18,
+      "view": 19,
       "website": 1
     },
     "Carp Moon Caf\u00e9": {
@@ -19,14 +19,15 @@
       "view": 32
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
-      "view": 25
+      "view": 26
     },
     "Del Pueblo Caf\u00e9": {
-      "view": 27,
+      "sidebar-view": 1,
+      "view": 28,
       "website": 2
     },
     "Dune Coffee (Anacapa)": {
-      "view": 26
+      "view": 28
     },
     "Dune Coffee (Calle Real)": {
       "view": 19
@@ -43,16 +44,19 @@
       "view": 28
     },
     "Lighthouse Coffee (Calle Real)": {
-      "view": 25
+      "sidebar-view": 1,
+      "view": 26
     },
     "Lighthouse Coffee (Chapala)": {
-      "view": 35
+      "sidebar-view": 1,
+      "view": 36
     },
     "Lighthouse Coffee (Cliff Dr)": {
+      "sidebar-view": 1,
       "view": 15
     },
     "Lighthouse Coffee (Haley)": {
-      "view": 16
+      "view": 17
     },
     "Lighthouse Coffee (Turnpike)": {
       "view": 31,
@@ -71,16 +75,18 @@
       "filter-area": 1
     },
     "Paloma": {
-      "view": 22
+      "sidebar-view": 1,
+      "view": 23
     },
     "Renaud's Patisserie (1324 State)": {
       "upvote": 1,
-      "view": 25
+      "view": 29
     },
     "Renaud's Patisserie (3315 State)": {
       "view": 13
     },
     "Renaud's Patisserie (Coast Village)": {
+      "sidebar-view": 1,
       "view": 9
     },
     "Renaud's Patisserie (Gelson's)": {
@@ -90,7 +96,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 37,
+      "view": 38,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -101,7 +107,8 @@
       "view": 7
     },
     "Third Window Brewing (Santa Barbara)": {
-      "view": 18
+      "sidebar-view": 1,
+      "view": 19
     },
     "coffeeWithFood": {
       "filter-tag": 4
@@ -120,7 +127,7 @@
       "trends-view": 4
     }
   },
-  "timestamp": "2026-03-20T18:55:58Z",
+  "timestamp": "2026-03-20T19:39:36Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
