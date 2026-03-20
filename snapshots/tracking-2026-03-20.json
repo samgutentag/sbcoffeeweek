@@ -6,7 +6,7 @@
     "CAYA Restaurant": {
       "restaurant-detail": 1,
       "sidebar-view": 1,
-      "view": 19,
+      "view": 21,
       "website": 1
     },
     "Carp Moon Caf\u00e9": {
@@ -19,25 +19,26 @@
       "view": 32
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
-      "view": 26
+      "view": 30
     },
     "Del Pueblo Caf\u00e9": {
       "sidebar-view": 1,
-      "view": 28,
+      "view": 30,
       "website": 2
     },
     "Dune Coffee (Anacapa)": {
       "view": 28
     },
     "Dune Coffee (Calle Real)": {
-      "view": 19
+      "view": 22
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
       "view": 34
     },
     "Dune Coffee (Storke)": {
-      "view": 20
+      "directions-google": 1,
+      "view": 24
     },
     "Goodland Waffles & Melts": {
       "restaurant-detail": 1,
@@ -45,7 +46,7 @@
     },
     "Lighthouse Coffee (Calle Real)": {
       "sidebar-view": 1,
-      "view": 26
+      "view": 28
     },
     "Lighthouse Coffee (Chapala)": {
       "sidebar-view": 1,
@@ -53,7 +54,7 @@
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
-      "view": 15
+      "view": 16
     },
     "Lighthouse Coffee (Haley)": {
       "view": 17
@@ -69,7 +70,7 @@
     "Marisella": {
       "instagram": 1,
       "sidebar-view": 1,
-      "view": 18
+      "view": 22
     },
     "Montecito": {
       "filter-area": 1
@@ -87,7 +88,7 @@
     },
     "Renaud's Patisserie (Coast Village)": {
       "sidebar-view": 1,
-      "view": 9
+      "view": 10
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 16
@@ -101,7 +102,7 @@
     },
     "Santa Barbara Roasting Company": {
       "share": 1,
-      "view": 29
+      "view": 31
     },
     "Third Window Brewing (Carpinteria)": {
       "view": 7
@@ -127,7 +128,7 @@
       "trends-view": 4
     }
   },
-  "timestamp": "2026-03-20T19:39:36Z",
+  "timestamp": "2026-03-20T20:37:27Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
