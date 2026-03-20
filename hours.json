@@ -1,0 +1,1119 @@
+{
+  "_updated": "2026-03-20T07:02:13Z",
+  "CAYA Restaurant": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0800",
+        "close": "2100"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "2100"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "2100"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "2100"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "2100"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "2100"
+      },
+      {
+        "day": 6,
+        "open": "0800",
+        "close": "2100"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  },
+  "Carp Moon Café": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 2,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 4,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 5,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0730",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Crushcakes & Café (Anacapa)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0730",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0730",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Crushcakes & Café (Hollister)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0730",
+        "close": "1530"
+      },
+      {
+        "day": 1,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 2,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 3,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 4,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 5,
+        "open": "0730",
+        "close": "1500"
+      },
+      {
+        "day": 6,
+        "open": "0730",
+        "close": "1530"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Del Pueblo Café": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0930",
+        "close": "1400"
+      },
+      {
+        "day": 1,
+        "open": "0930",
+        "close": "1400"
+      },
+      {
+        "day": 2,
+        "open": "0930",
+        "close": "1400"
+      },
+      {
+        "day": 2,
+        "open": "1645",
+        "close": "2000"
+      },
+      {
+        "day": 3,
+        "open": "1000",
+        "close": "1400"
+      },
+      {
+        "day": 3,
+        "open": "1645",
+        "close": "2000"
+      },
+      {
+        "day": 4,
+        "open": "0930",
+        "close": "1400"
+      },
+      {
+        "day": 4,
+        "open": "1645",
+        "close": "2000"
+      },
+      {
+        "day": 5,
+        "open": "0930",
+        "close": "1400"
+      },
+      {
+        "day": 5,
+        "open": "1645",
+        "close": "2000"
+      },
+      {
+        "day": 6,
+        "open": "0930",
+        "close": "1400"
+      },
+      {
+        "day": 6,
+        "open": "1645",
+        "close": "2000"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  },
+  "Dune Coffee (Anacapa)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1700"
+      },
+      {
+        "day": 1,
+        "open": "0600",
+        "close": "1700"
+      },
+      {
+        "day": 2,
+        "open": "0600",
+        "close": "1700"
+      },
+      {
+        "day": 3,
+        "open": "0600",
+        "close": "1700"
+      },
+      {
+        "day": 4,
+        "open": "0600",
+        "close": "1700"
+      },
+      {
+        "day": 5,
+        "open": "0600",
+        "close": "1700"
+      },
+      {
+        "day": 6,
+        "open": "0600",
+        "close": "1700"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Dune Coffee (Calle Real)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Dune Coffee (State St)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Dune Coffee (Storke)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Goodland Waffles & Melts": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1700"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1700"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1700"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1700"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1700"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1800"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1800"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  },
+  "Lighthouse Coffee (Calle Real)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0600",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Lighthouse Coffee (Chapala)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0600",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Lighthouse Coffee (Cliff Dr)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0600",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Lighthouse Coffee (Haley)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1500"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Lighthouse Coffee (Turnpike)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 1,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0600",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0600",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Lucky Llama Coffee House": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0630",
+        "close": "1430"
+      },
+      {
+        "day": 1,
+        "open": "0630",
+        "close": "1430"
+      },
+      {
+        "day": 2,
+        "open": "0630",
+        "close": "1430"
+      },
+      {
+        "day": 3,
+        "open": "0630",
+        "close": "1430"
+      },
+      {
+        "day": 4,
+        "open": "0630",
+        "close": "1430"
+      },
+      {
+        "day": 5,
+        "open": "0630",
+        "close": "1430"
+      },
+      {
+        "day": 6,
+        "open": "0630",
+        "close": "1430"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Marisella": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "1600",
+        "close": "2000"
+      },
+      {
+        "day": 1,
+        "open": "1600",
+        "close": "2000"
+      },
+      {
+        "day": 2,
+        "open": "1600",
+        "close": "2000"
+      },
+      {
+        "day": 3,
+        "open": "1600",
+        "close": "2000"
+      },
+      {
+        "day": 4,
+        "open": "1600",
+        "close": "2000"
+      },
+      {
+        "day": 5,
+        "open": "1600",
+        "close": "2100"
+      },
+      {
+        "day": 6,
+        "open": "1600",
+        "close": "2100"
+      }
+    ],
+    "lunch": false,
+    "dinner": true
+  },
+  "Paloma": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "1030",
+        "close": "1400"
+      },
+      {
+        "day": 0,
+        "open": "1600",
+        "close": "2100"
+      },
+      {
+        "day": 3,
+        "open": "1600",
+        "close": "2100"
+      },
+      {
+        "day": 4,
+        "open": "1600",
+        "close": "2100"
+      },
+      {
+        "day": 5,
+        "open": "1030",
+        "close": "1400"
+      },
+      {
+        "day": 5,
+        "open": "1600",
+        "close": "2200"
+      },
+      {
+        "day": 6,
+        "open": "1030",
+        "close": "1400"
+      },
+      {
+        "day": 6,
+        "open": "1600",
+        "close": "2200"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  },
+  "Renaud's Patisserie (1324 State)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Renaud's Patisserie (3315 State)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Renaud's Patisserie (Coast Village)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Renaud's Patisserie (Gelson's)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1500"
+      },
+      {
+        "day": 1,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 2,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 3,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 4,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 5,
+        "open": "0700",
+        "close": "1600"
+      },
+      {
+        "day": 6,
+        "open": "0700",
+        "close": "1600"
+      }
+    ],
+    "lunch": true,
+    "dinner": false
+  },
+  "Sama Sama Kitchen": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "1200",
+        "close": "1500"
+      },
+      {
+        "day": 0,
+        "open": "1700",
+        "close": "2130"
+      },
+      {
+        "day": 2,
+        "open": "1200",
+        "close": "1500"
+      },
+      {
+        "day": 2,
+        "open": "1700",
+        "close": "2130"
+      },
+      {
+        "day": 3,
+        "open": "1200",
+        "close": "1500"
+      },
+      {
+        "day": 3,
+        "open": "1700",
+        "close": "2130"
+      },
+      {
+        "day": 4,
+        "open": "1200",
+        "close": "1500"
+      },
+      {
+        "day": 4,
+        "open": "1700",
+        "close": "2130"
+      },
+      {
+        "day": 5,
+        "open": "1200",
+        "close": "1500"
+      },
+      {
+        "day": 5,
+        "open": "1700",
+        "close": "2230"
+      },
+      {
+        "day": 6,
+        "open": "1200",
+        "close": "1500"
+      },
+      {
+        "day": 6,
+        "open": "1700",
+        "close": "2230"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  },
+  "Santa Barbara Roasting Company": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "0700",
+        "close": "1800"
+      },
+      {
+        "day": 1,
+        "open": "0630",
+        "close": "1800"
+      },
+      {
+        "day": 2,
+        "open": "0630",
+        "close": "1800"
+      },
+      {
+        "day": 3,
+        "open": "0630",
+        "close": "1800"
+      },
+      {
+        "day": 4,
+        "open": "0630",
+        "close": "1800"
+      },
+      {
+        "day": 5,
+        "open": "0630",
+        "close": "1800"
+      },
+      {
+        "day": 6,
+        "open": "0630",
+        "close": "1800"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  },
+  "Third Window Brewing (Carpinteria)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "1100",
+        "close": "2100"
+      },
+      {
+        "day": 1,
+        "open": "1100",
+        "close": "2100"
+      },
+      {
+        "day": 2,
+        "open": "1100",
+        "close": "2100"
+      },
+      {
+        "day": 3,
+        "open": "1100",
+        "close": "2100"
+      },
+      {
+        "day": 4,
+        "open": "1100",
+        "close": "2100"
+      },
+      {
+        "day": 5,
+        "open": "1100",
+        "close": "2200"
+      },
+      {
+        "day": 6,
+        "open": "1100",
+        "close": "2200"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  },
+  "Third Window Brewing (Santa Barbara)": {
+    "periods": [
+      {
+        "day": 0,
+        "open": "1000",
+        "close": "2200"
+      },
+      {
+        "day": 1,
+        "open": "1130",
+        "close": "2200"
+      },
+      {
+        "day": 2,
+        "open": "1130",
+        "close": "2200"
+      },
+      {
+        "day": 3,
+        "open": "1130",
+        "close": "2200"
+      },
+      {
+        "day": 4,
+        "open": "1130",
+        "close": "2200"
+      },
+      {
+        "day": 5,
+        "open": "1130",
+        "close": "2200"
+      },
+      {
+        "day": 6,
+        "open": "1100",
+        "close": "2200"
+      }
+    ],
+    "lunch": true,
+    "dinner": true
+  }
+}
