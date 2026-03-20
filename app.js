@@ -1839,8 +1839,7 @@
         '" alt="Venmo QR Code" style="width:60px;height:60px;opacity:0.7">' +
         '<div style="font-size:0.55rem;color:#aaa;margin-top:2px">Enjoyed the map?</div>' +
         '<div style="font-size:0.55rem;color:#aaa">' +
-        THEME.emoji +
-        " Buy me a burger!</div>" +
+        " " + THEME.venmoNote + "</div>" +
         "</div>";
     }
 
