@@ -391,9 +391,9 @@
   // Category tag icon helper
   // TODO: Replace placeholder SVG icons with coffee-themed icons from https://www.svgrepo.com
   var tagDefs = [
-    { key: "justCoffee", icon: "icon-vegetarian.svg", label: "Just Coffee" },
-    { key: "coffeeWithFood", icon: "icon-gf.svg", label: "Coffee + Food" },
-    { key: "coffeeAsCocktail", icon: "icon-fries.svg", label: "Cocktail" },
+    { key: "justCoffee", icon: "icon-coffee.svg", label: "Just Coffee" },
+    { key: "coffeeWithFood", icon: "icon-muffin.svg", label: "Coffee + Food" },
+    { key: "coffeeAsCocktail", icon: "icon-cocktail.svg", label: "Cocktail" },
   ];
 
   function getDietaryIconsHtml(r) {
