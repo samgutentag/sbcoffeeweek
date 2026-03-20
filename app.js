@@ -943,8 +943,8 @@
   hoursFilterSpan.style.display = "none";
   var hoursDefs = [
     { key: "open", icon: "🟢", label: "Open Now" },
-    { key: "lunch", icon: "☀️", label: "Lunch" },
-    { key: "dinner", icon: "🌙", label: "Dinner" },
+    { key: "lunch", icon: "☀️", label: "Morning" },
+    { key: "dinner", icon: "🌙", label: "Evening" },
   ];
   hoursDefs.forEach(function (h) {
     var btn = document.createElement("button");
