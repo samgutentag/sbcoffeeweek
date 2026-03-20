@@ -5,7 +5,7 @@
     },
     "CAYA Restaurant": {
       "sidebar-view": 1,
-      "view": 14
+      "view": 15
     },
     "Carp Moon Caf\u00e9": {
       "sidebar-view": 1,
@@ -14,7 +14,7 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 18
+      "view": 22
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "view": 19
@@ -23,29 +23,29 @@
       "view": 19
     },
     "Dune Coffee (Anacapa)": {
-      "view": 14
+      "view": 20
     },
     "Dune Coffee (Calle Real)": {
-      "view": 14
+      "view": 15
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 19
+      "view": 24
     },
     "Dune Coffee (Storke)": {
-      "view": 13
+      "view": 14
     },
     "Goodland Waffles & Melts": {
-      "view": 15
-    },
-    "Lighthouse Coffee (Calle Real)": {
       "view": 18
     },
+    "Lighthouse Coffee (Calle Real)": {
+      "view": 20
+    },
     "Lighthouse Coffee (Chapala)": {
-      "view": 21
+      "view": 29
     },
     "Lighthouse Coffee (Cliff Dr)": {
-      "view": 9
+      "view": 10
     },
     "Lighthouse Coffee (Haley)": {
       "view": 15
@@ -57,22 +57,23 @@
       "view": 4
     },
     "Marisella": {
-      "view": 12
+      "view": 14
     },
     "Montecito": {
       "filter-area": 1
     },
     "Paloma": {
-      "view": 15
+      "view": 18
     },
     "Renaud's Patisserie (1324 State)": {
-      "view": 13
+      "upvote": 1,
+      "view": 15
     },
     "Renaud's Patisserie (3315 State)": {
       "view": 10
     },
     "Renaud's Patisserie (Coast Village)": {
-      "view": 6
+      "view": 7
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 14
@@ -80,18 +81,18 @@
     "Sama Sama Kitchen": {
       "deeplink": 1,
       "sidebar-view": 2,
-      "view": 21,
+      "view": 26,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
       "share": 1,
-      "view": 21
+      "view": 26
     },
     "Third Window Brewing (Carpinteria)": {
       "view": 6
     },
     "Third Window Brewing (Santa Barbara)": {
-      "view": 15
+      "view": 16
     },
     "coffeeWithFood": {
       "filter-tag": 4
@@ -108,6 +109,8 @@
       "trends-view": 2
     }
   },
-  "timestamp": "2026-03-20T15:47:49Z",
-  "upvotes": {}
+  "timestamp": "2026-03-20T16:50:54Z",
+  "upvotes": {
+    "Renaud's Patisserie (1324 State)": 1
+  }
 }
