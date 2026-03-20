@@ -7,7 +7,9 @@
       "sidebar-view": 1
     },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
-      "sidebar-view": 1
+      "deeplink": 1,
+      "sidebar-view": 1,
+      "view": 1
     },
     "coffeeWithFood": {
       "filter-tag": 2
@@ -17,10 +19,10 @@
     },
     "stats": {
       "insights-view": 2,
-      "stats-view": 2,
+      "stats-view": 3,
       "trends-view": 2
     }
   },
-  "timestamp": "2026-03-20T08:49:02Z",
+  "timestamp": "2026-03-20T09:48:40Z",
   "upvotes": {}
 }
