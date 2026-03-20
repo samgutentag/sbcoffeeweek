@@ -11,6 +11,18 @@
       "sidebar-view": 1,
       "view": 1
     },
+    "Crushcakes & Caf\u00e9 (Hollister)": {
+      "view": 1
+    },
+    "Del Pueblo Caf\u00e9": {
+      "view": 2
+    },
+    "Dune Coffee (Storke)": {
+      "view": 1
+    },
+    "Lighthouse Coffee (Turnpike)": {
+      "view": 1
+    },
     "coffeeWithFood": {
       "filter-tag": 2
     },
@@ -19,10 +31,10 @@
     },
     "stats": {
       "insights-view": 2,
-      "stats-view": 3,
+      "stats-view": 4,
       "trends-view": 2
     }
   },
-  "timestamp": "2026-03-20T10:42:16Z",
+  "timestamp": "2026-03-20T11:35:08Z",
   "upvotes": {}
 }
