@@ -2,51 +2,90 @@
   "detail": {
     "CAYA Restaurant": {
       "sidebar-view": 1,
-      "view": 5
+      "view": 12
     },
     "Carp Moon Caf\u00e9": {
-      "sidebar-view": 1
+      "sidebar-view": 1,
+      "view": 4
     },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 1
+      "view": 17
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
-      "view": 3
+      "view": 12
     },
     "Del Pueblo Caf\u00e9": {
-      "view": 4
+      "view": 11
+    },
+    "Dune Coffee (Anacapa)": {
+      "view": 14
     },
     "Dune Coffee (Calle Real)": {
-      "view": 3
+      "view": 11
     },
     "Dune Coffee (State St)": {
-      "view": 2
+      "sidebar-view": 1,
+      "view": 17
     },
     "Dune Coffee (Storke)": {
-      "view": 3
+      "view": 11
+    },
+    "Goodland Waffles & Melts": {
+      "view": 14
     },
     "Lighthouse Coffee (Calle Real)": {
-      "view": 8
+      "view": 16
+    },
+    "Lighthouse Coffee (Chapala)": {
+      "view": 18
+    },
+    "Lighthouse Coffee (Cliff Dr)": {
+      "view": 6
+    },
+    "Lighthouse Coffee (Haley)": {
+      "view": 15
     },
     "Lighthouse Coffee (Turnpike)": {
-      "view": 2
+      "view": 12
+    },
+    "Lucky Llama Coffee House": {
+      "view": 4
     },
     "Marisella": {
-      "view": 1
+      "view": 10
+    },
+    "Paloma": {
+      "view": 14
     },
     "Renaud's Patisserie (1324 State)": {
-      "view": 1
+      "view": 10
+    },
+    "Renaud's Patisserie (3315 State)": {
+      "view": 6
+    },
+    "Renaud's Patisserie (Coast Village)": {
+      "view": 6
     },
     "Renaud's Patisserie (Gelson's)": {
-      "view": 1
+      "view": 10
     },
     "Sama Sama Kitchen": {
       "deeplink": 1,
       "sidebar-view": 2,
-      "view": 3,
+      "view": 18,
       "website": 1
+    },
+    "Santa Barbara Roasting Company": {
+      "share": 1,
+      "view": 18
+    },
+    "Third Window Brewing (Carpinteria)": {
+      "view": 4
+    },
+    "Third Window Brewing (Santa Barbara)": {
+      "view": 13
     },
     "coffeeWithFood": {
       "filter-tag": 2
@@ -60,6 +99,6 @@
       "trends-view": 2
     }
   },
-  "timestamp": "2026-03-20T13:08:01Z",
+  "timestamp": "2026-03-20T14:46:27Z",
   "upvotes": {}
 }
