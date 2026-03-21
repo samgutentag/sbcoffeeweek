@@ -31,14 +31,14 @@
       "filter-area": 1
     },
     "Dune Coffee (Anacapa)": {
-      "view": 39
+      "view": 40
     },
     "Dune Coffee (Calle Real)": {
       "view": 25
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 45
+      "view": 46
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -55,7 +55,7 @@
     },
     "Lighthouse Coffee (Chapala)": {
       "sidebar-view": 1,
-      "view": 43
+      "view": 44
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
@@ -82,7 +82,7 @@
     },
     "Paloma": {
       "sidebar-view": 1,
-      "view": 31
+      "view": 32
     },
     "Renaud's Patisserie (1324 State)": {
       "upvote": 1,
@@ -96,7 +96,7 @@
     "Renaud's Patisserie (Coast Village)": {
       "deeplink": 12,
       "sidebar-view": 1,
-      "view": 26
+      "view": 27
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 21
@@ -142,7 +142,7 @@
       "trends-view": 6
     }
   },
-  "timestamp": "2026-03-21T04:39:54Z",
+  "timestamp": "2026-03-21T05:43:54Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
