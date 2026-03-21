@@ -118,8 +118,9 @@
       "view": 17
     },
     "Third Window Brewing (Santa Barbara)": {
+      "deeplink": 1,
       "sidebar-view": 2,
-      "view": 35
+      "view": 36
     },
     "coffeeAsCocktail": {
       "filter-tag": 1
@@ -144,7 +145,7 @@
       "trends-view": 6
     }
   },
-  "timestamp": "2026-03-21T22:29:40Z",
+  "timestamp": "2026-03-21T23:29:34Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
