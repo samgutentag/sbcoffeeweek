@@ -16,7 +16,7 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 41
+      "view": 43
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "view": 37
@@ -31,7 +31,7 @@
       "filter-area": 1
     },
     "Dune Coffee (Anacapa)": {
-      "view": 41
+      "view": 43
     },
     "Dune Coffee (Calle Real)": {
       "view": 25
@@ -82,16 +82,16 @@
     },
     "Paloma": {
       "sidebar-view": 1,
-      "view": 32
+      "view": 34
     },
     "Renaud's Patisserie (1324 State)": {
       "upvote": 1,
-      "view": 38
+      "view": 40
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
       "restaurant-detail": 1,
-      "view": 19
+      "view": 21
     },
     "Renaud's Patisserie (Coast Village)": {
       "deeplink": 12,
@@ -110,13 +110,13 @@
     },
     "Santa Barbara Roasting Company": {
       "share": 1,
-      "view": 44
+      "view": 46
     },
     "Third Window Brewing (Carpinteria)": {
       "view": 9
     },
     "Third Window Brewing (Santa Barbara)": {
-      "sidebar-view": 1,
+      "sidebar-view": 2,
       "view": 27
     },
     "coffeeAsCocktail": {
@@ -142,7 +142,7 @@
       "trends-view": 6
     }
   },
-  "timestamp": "2026-03-21T07:35:39Z",
+  "timestamp": "2026-03-21T08:38:19Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
