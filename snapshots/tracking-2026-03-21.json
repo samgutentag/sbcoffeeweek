@@ -11,12 +11,12 @@
     },
     "Carp Moon Caf\u00e9": {
       "sidebar-view": 2,
-      "view": 8
+      "view": 9
     },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 44
+      "view": 45
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 1,
@@ -25,45 +25,45 @@
     "Del Pueblo Caf\u00e9": {
       "instagram": 1,
       "sidebar-view": 3,
-      "view": 41,
+      "view": 42,
       "website": 3
     },
     "Downtown": {
       "filter-area": 1
     },
     "Dune Coffee (Anacapa)": {
-      "view": 44
+      "view": 45
     },
     "Dune Coffee (Calle Real)": {
-      "view": 26
+      "view": 27
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 48
+      "view": 51
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
-      "view": 33
+      "view": 34
     },
     "Goodland Waffles & Melts": {
       "restaurant-detail": 1,
-      "view": 40
+      "view": 44
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 39
+      "view": 40
     },
     "Lighthouse Coffee (Chapala)": {
       "sidebar-view": 1,
-      "view": 45
+      "view": 46
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
-      "view": 24
+      "view": 25
     },
     "Lighthouse Coffee (Haley)": {
-      "view": 26
+      "view": 27
     },
     "Lighthouse Coffee (Turnpike)": {
       "view": 40,
@@ -71,7 +71,7 @@
     },
     "Lucky Llama Coffee House": {
       "sidebar-view": 1,
-      "view": 7
+      "view": 9
     },
     "Marisella": {
       "instagram": 1,
@@ -83,11 +83,11 @@
     },
     "Paloma": {
       "sidebar-view": 1,
-      "view": 34
+      "view": 35
     },
     "Renaud's Patisserie (1324 State)": {
       "upvote": 1,
-      "view": 41
+      "view": 42
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
@@ -97,7 +97,7 @@
     "Renaud's Patisserie (Coast Village)": {
       "deeplink": 12,
       "sidebar-view": 1,
-      "view": 29
+      "view": 31
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 24
@@ -106,19 +106,19 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 46,
+      "view": 47,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
       "share": 1,
-      "view": 47
+      "view": 48
     },
     "Third Window Brewing (Carpinteria)": {
-      "view": 10
+      "view": 11
     },
     "Third Window Brewing (Santa Barbara)": {
       "sidebar-view": 2,
-      "view": 28
+      "view": 29
     },
     "coffeeAsCocktail": {
       "filter-tag": 1
@@ -143,7 +143,7 @@
       "trends-view": 6
     }
   },
-  "timestamp": "2026-03-21T14:31:02Z",
+  "timestamp": "2026-03-21T15:29:54Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
