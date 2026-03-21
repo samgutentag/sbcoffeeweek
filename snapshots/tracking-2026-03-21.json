@@ -11,7 +11,7 @@
     },
     "Carp Moon Caf\u00e9": {
       "sidebar-view": 2,
-      "view": 12
+      "view": 14
     },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
@@ -39,7 +39,7 @@
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 54
+      "view": 56
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -48,7 +48,7 @@
     "Goodland Waffles & Melts": {
       "deeplink": 1,
       "restaurant-detail": 1,
-      "view": 47
+      "view": 48
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -72,7 +72,7 @@
     },
     "Lucky Llama Coffee House": {
       "sidebar-view": 1,
-      "view": 12
+      "view": 14
     },
     "Marisella": {
       "instagram": 1,
@@ -107,7 +107,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 52,
+      "view": 54,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -115,7 +115,7 @@
       "view": 53
     },
     "Third Window Brewing (Carpinteria)": {
-      "view": 13
+      "view": 17
     },
     "Third Window Brewing (Santa Barbara)": {
       "sidebar-view": 2,
@@ -144,7 +144,7 @@
       "trends-view": 6
     }
   },
-  "timestamp": "2026-03-21T21:29:18Z",
+  "timestamp": "2026-03-21T22:29:40Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
