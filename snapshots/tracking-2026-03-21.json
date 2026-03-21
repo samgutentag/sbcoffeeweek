@@ -16,7 +16,7 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 38
+      "view": 40
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "view": 37
@@ -31,18 +31,18 @@
       "filter-area": 1
     },
     "Dune Coffee (Anacapa)": {
-      "view": 38
+      "view": 39
     },
     "Dune Coffee (Calle Real)": {
       "view": 25
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 43
+      "view": 45
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
-      "view": 30
+      "view": 31
     },
     "Goodland Waffles & Melts": {
       "restaurant-detail": 1,
@@ -55,14 +55,14 @@
     },
     "Lighthouse Coffee (Chapala)": {
       "sidebar-view": 1,
-      "view": 42
+      "view": 43
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
-      "view": 22
+      "view": 23
     },
     "Lighthouse Coffee (Haley)": {
-      "view": 23
+      "view": 24
     },
     "Lighthouse Coffee (Turnpike)": {
       "view": 37,
@@ -75,18 +75,18 @@
     "Marisella": {
       "instagram": 1,
       "sidebar-view": 1,
-      "view": 25
+      "view": 26
     },
     "Montecito": {
       "filter-area": 2
     },
     "Paloma": {
       "sidebar-view": 1,
-      "view": 30
+      "view": 31
     },
     "Renaud's Patisserie (1324 State)": {
       "upvote": 1,
-      "view": 35
+      "view": 37
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
@@ -94,9 +94,9 @@
       "view": 19
     },
     "Renaud's Patisserie (Coast Village)": {
-      "deeplink": 10,
+      "deeplink": 12,
       "sidebar-view": 1,
-      "view": 24
+      "view": 26
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 21
@@ -110,14 +110,14 @@
     },
     "Santa Barbara Roasting Company": {
       "share": 1,
-      "view": 40
+      "view": 42
     },
     "Third Window Brewing (Carpinteria)": {
       "view": 8
     },
     "Third Window Brewing (Santa Barbara)": {
       "sidebar-view": 1,
-      "view": 24
+      "view": 26
     },
     "coffeeAsCocktail": {
       "filter-tag": 1
@@ -142,7 +142,7 @@
       "trends-view": 6
     }
   },
-  "timestamp": "2026-03-21T02:22:52Z",
+  "timestamp": "2026-03-21T04:39:54Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
