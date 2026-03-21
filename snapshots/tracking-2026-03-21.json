@@ -46,6 +46,7 @@
       "view": 37
     },
     "Goodland Waffles & Melts": {
+      "deeplink": 1,
       "restaurant-detail": 1,
       "view": 47
     },
@@ -95,9 +96,9 @@
       "view": 26
     },
     "Renaud's Patisserie (Coast Village)": {
-      "deeplink": 12,
+      "deeplink": 13,
       "sidebar-view": 1,
-      "view": 34
+      "view": 35
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 29
@@ -118,7 +119,7 @@
     },
     "Third Window Brewing (Santa Barbara)": {
       "sidebar-view": 2,
-      "view": 34
+      "view": 35
     },
     "coffeeAsCocktail": {
       "filter-tag": 1
@@ -143,7 +144,7 @@
       "trends-view": 6
     }
   },
-  "timestamp": "2026-03-21T19:28:13Z",
+  "timestamp": "2026-03-21T20:31:43Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
