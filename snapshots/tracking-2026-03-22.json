@@ -6,7 +6,7 @@
     "CAYA Restaurant": {
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 35,
+      "view": 36,
       "website": 1
     },
     "Carp Moon Caf\u00e9": {
@@ -85,7 +85,7 @@
     },
     "Paloma": {
       "sidebar-view": 1,
-      "view": 55
+      "view": 56
     },
     "Renaud's Patisserie (1324 State)": {
       "upvote": 1,
@@ -108,7 +108,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 70,
+      "view": 72,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -150,7 +150,7 @@
       "tip-jar-open": 1
     }
   },
-  "timestamp": "2026-03-22T15:30:26Z",
+  "timestamp": "2026-03-22T16:35:54Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
