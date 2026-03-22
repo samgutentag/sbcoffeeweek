@@ -6,7 +6,7 @@
     "CAYA Restaurant": {
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 34,
+      "view": 35,
       "website": 1
     },
     "Carp Moon Caf\u00e9": {
@@ -16,16 +16,16 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 55
+      "view": 57
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 2,
-      "view": 45
+      "view": 46
     },
     "Del Pueblo Caf\u00e9": {
       "instagram": 1,
       "sidebar-view": 3,
-      "view": 47,
+      "view": 48,
       "website": 3
     },
     "Downtown": {
@@ -35,7 +35,7 @@
       "view": 58
     },
     "Dune Coffee (Calle Real)": {
-      "view": 31
+      "view": 32
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
@@ -46,14 +46,14 @@
       "view": 41
     },
     "Goodland Waffles & Melts": {
-      "deeplink": 1,
+      "deeplink": 2,
       "restaurant-detail": 1,
-      "view": 54
+      "view": 55
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 44
+      "view": 45
     },
     "Lighthouse Coffee (Chapala)": {
       "directions-google": 1,
@@ -89,7 +89,7 @@
     },
     "Renaud's Patisserie (1324 State)": {
       "upvote": 1,
-      "view": 52
+      "view": 54
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
@@ -150,7 +150,7 @@
       "tip-jar-open": 1
     }
   },
-  "timestamp": "2026-03-22T14:32:20Z",
+  "timestamp": "2026-03-22T15:30:26Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
