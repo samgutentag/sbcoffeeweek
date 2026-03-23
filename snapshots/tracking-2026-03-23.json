@@ -14,10 +14,10 @@
       "view": 16
     },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
-      "deeplink": 2,
+      "deeplink": 3,
       "directions-google": 1,
       "sidebar-view": 5,
-      "view": 68
+      "view": 69
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 2,
@@ -157,7 +157,7 @@
       "tip-jar-open": 1
     }
   },
-  "timestamp": "2026-03-23T05:06:45Z",
+  "timestamp": "2026-03-23T07:16:39Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
