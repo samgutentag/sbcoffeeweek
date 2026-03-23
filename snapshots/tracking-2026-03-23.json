@@ -11,13 +11,13 @@
     },
     "Carp Moon Caf\u00e9": {
       "sidebar-view": 2,
-      "view": 16
+      "view": 18
     },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 5,
       "directions-google": 1,
       "sidebar-view": 5,
-      "view": 75
+      "view": 77
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 2,
@@ -61,15 +61,16 @@
       "deeplink": 1,
       "directions-google": 1,
       "sidebar-view": 1,
-      "view": 78
+      "view": 80
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
-      "view": 42
+      "view": 43
     },
     "Lighthouse Coffee (Haley)": {
+      "deeplink": 1,
       "sidebar-view": 1,
-      "view": 54
+      "view": 55
     },
     "Lighthouse Coffee (Turnpike)": {
       "deeplink": 1,
@@ -78,7 +79,7 @@
     },
     "Lucky Llama Coffee House": {
       "sidebar-view": 1,
-      "view": 15
+      "view": 17
     },
     "Marisella": {
       "instagram": 1,
@@ -90,12 +91,12 @@
     },
     "Paloma": {
       "sidebar-view": 2,
-      "view": 68
+      "view": 69
     },
     "Renaud's Patisserie (1324 State)": {
       "sidebar-view": 1,
       "upvote": 1,
-      "view": 68
+      "view": 69
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
@@ -105,7 +106,7 @@
     "Renaud's Patisserie (Coast Village)": {
       "deeplink": 18,
       "sidebar-view": 1,
-      "view": 46
+      "view": 48
     },
     "Renaud's Patisserie (Gelson's)": {
       "view": 42
@@ -120,11 +121,11 @@
     "Santa Barbara Roasting Company": {
       "share": 1,
       "sidebar-view": 2,
-      "view": 81
+      "view": 84
     },
     "Third Window Brewing (Carpinteria)": {
       "sidebar-view": 1,
-      "view": 18
+      "view": 19
     },
     "Third Window Brewing (Santa Barbara)": {
       "deeplink": 3,
@@ -157,7 +158,7 @@
       "tip-jar-open": 2
     }
   },
-  "timestamp": "2026-03-23T16:06:59Z",
+  "timestamp": "2026-03-23T17:53:33Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
