@@ -41,7 +41,7 @@
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 69
+      "view": 71
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -50,7 +50,7 @@
     "Goodland Waffles & Melts": {
       "deeplink": 2,
       "restaurant-detail": 1,
-      "view": 63
+      "view": 64
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -95,7 +95,7 @@
     "Renaud's Patisserie (1324 State)": {
       "sidebar-view": 1,
       "upvote": 1,
-      "view": 65
+      "view": 67
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
@@ -114,7 +114,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 3,
-      "view": 84,
+      "view": 86,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -150,14 +150,14 @@
       "insights-view": 8,
       "post-event-view": 2,
       "restaurants-view": 8,
-      "stats-view": 12,
+      "stats-view": 13,
       "trends-view": 8
     },
     "tip-jar": {
-      "tip-jar-open": 1
+      "tip-jar-open": 2
     }
   },
-  "timestamp": "2026-03-23T11:48:07Z",
+  "timestamp": "2026-03-23T13:16:32Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
