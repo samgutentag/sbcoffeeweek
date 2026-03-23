@@ -5,7 +5,7 @@
     },
     "CAYA Restaurant": {
       "restaurant-detail": 1,
-      "sidebar-view": 2,
+      "sidebar-view": 3,
       "view": 42,
       "website": 1
     },
@@ -16,7 +16,7 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 6,
       "directions-google": 1,
-      "sidebar-view": 5,
+      "sidebar-view": 6,
       "view": 78
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
@@ -109,6 +109,7 @@
       "view": 48
     },
     "Renaud's Patisserie (Gelson's)": {
+      "sidebar-view": 1,
       "view": 42
     },
     "Sama Sama Kitchen": {
@@ -155,10 +156,10 @@
       "trends-view": 8
     },
     "tip-jar": {
-      "tip-jar-open": 2
+      "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-23T20:41:21Z",
+  "timestamp": "2026-03-23T21:40:25Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
