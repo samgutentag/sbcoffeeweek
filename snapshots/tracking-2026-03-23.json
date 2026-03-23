@@ -17,7 +17,7 @@
       "deeplink": 6,
       "directions-google": 1,
       "sidebar-view": 5,
-      "view": 77
+      "view": 78
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 2,
@@ -34,14 +34,14 @@
     },
     "Dune Coffee (Anacapa)": {
       "share": 1,
-      "view": 74
+      "view": 75
     },
     "Dune Coffee (Calle Real)": {
       "view": 39
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 74
+      "view": 75
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -50,7 +50,7 @@
     "Goodland Waffles & Melts": {
       "deeplink": 2,
       "restaurant-detail": 1,
-      "view": 65
+      "view": 66
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -70,7 +70,7 @@
     "Lighthouse Coffee (Haley)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 55
+      "view": 56
     },
     "Lighthouse Coffee (Turnpike)": {
       "deeplink": 1,
@@ -91,12 +91,12 @@
     },
     "Paloma": {
       "sidebar-view": 2,
-      "view": 69
+      "view": 70
     },
     "Renaud's Patisserie (1324 State)": {
       "sidebar-view": 1,
       "upvote": 1,
-      "view": 69
+      "view": 70
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
@@ -115,7 +115,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 3,
-      "view": 88,
+      "view": 89,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -158,7 +158,7 @@
       "tip-jar-open": 2
     }
   },
-  "timestamp": "2026-03-23T19:00:35Z",
+  "timestamp": "2026-03-23T20:41:21Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
