@@ -147,17 +147,17 @@
       "filter-hours": 5
     },
     "stats": {
-      "insights-view": 6,
+      "insights-view": 8,
       "post-event-view": 2,
       "restaurants-view": 8,
-      "stats-view": 11,
-      "trends-view": 6
+      "stats-view": 12,
+      "trends-view": 8
     },
     "tip-jar": {
       "tip-jar-open": 1
     }
   },
-  "timestamp": "2026-03-23T07:16:39Z",
+  "timestamp": "2026-03-23T09:02:17Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
