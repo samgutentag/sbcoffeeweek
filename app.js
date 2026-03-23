@@ -390,7 +390,7 @@
 
   // Category tag icon helper
   // TODO: Replace placeholder SVG icons with coffee-themed icons from https://www.svgrepo.com
-  var tagDefs = [
+  var tagDefs = THEME.tagFilters || [
     { key: "justCoffee", icon: "icon-coffee.svg", label: "Just Coffee" },
     { key: "coffeeWithFood", icon: "icon-muffin.svg", label: "Coffee + Food" },
     { key: "coffeeAsCocktail", icon: "icon-cocktail.svg", label: "Cocktail" },
@@ -941,7 +941,7 @@
   hoursFilterSpan.id = "hoursFilters";
   hoursFilterSpan.className = "filter-row filter-row-hours";
   hoursFilterSpan.style.display = "none";
-  var hoursDefs = [
+  var hoursDefs = THEME.hoursFilters || [
     { key: "open", icon: "🟢", label: "Open Now" },
     { key: "lunch", icon: "☀️", label: "Morning" },
     { key: "dinner", icon: "🌙", label: "Evening" },

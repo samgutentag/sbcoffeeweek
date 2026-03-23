@@ -808,10 +808,10 @@
   hoursFilterSpan.id = "hoursFilters";
   hoursFilterSpan.className = "hours-filters";
   hoursFilterSpan.style.display = "none";
-  var hoursDefs = [
+  var hoursDefs = THEME.hoursFilters || [
     { key: "open", icon: "\uD83D\uDFE2", label: "Open Now" },
-    { key: "lunch", icon: "\u2600\uFE0F", label: "Lunch" },
-    { key: "dinner", icon: "\uD83C\uDF19", label: "Dinner" },
+    { key: "lunch", icon: "\u2600\uFE0F", label: "Morning" },
+    { key: "dinner", icon: "\uD83C\uDF19", label: "Evening" },
   ];
   hoursDefs.forEach(function (h) {
     var btn = document.createElement("button");
@@ -1499,7 +1499,7 @@
         '<div style="font-size:0.55rem;color:#aaa;margin-top:2px">Enjoyed the map?</div>' +
         '<div style="font-size:0.55rem;color:#aaa">' +
         THEME.emoji +
-        " Buy me a burger!</div>" +
+        " " + (THEME.venmoNote || "Buy me a coffee?") + "</div>" +
         "</div>";
     }
 

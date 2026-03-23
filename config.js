@@ -73,6 +73,20 @@ const THEME = {
   // Set null to hide the contact link
   contactDomain: "samgutentag.com",
 
+  // Filter definitions — shared by app.js and stats.js
+  // Tags: category filters shown in the search menu
+  tagFilters: [
+    { key: "justCoffee", icon: "icon-coffee.svg", label: "Just Coffee" },
+    { key: "coffeeWithFood", icon: "icon-muffin.svg", label: "Coffee + Food" },
+    { key: "coffeeAsCocktail", icon: "icon-cocktail.svg", label: "Cocktail" },
+  ],
+  // Hours: time-of-day filters (hidden until hours.json loads)
+  hoursFilters: [
+    { key: "open", icon: "🟢", label: "Open Now" },
+    { key: "lunch", icon: "☀️", label: "Morning" },
+    { key: "dinner", icon: "🌙", label: "Evening" },
+  ],
+
   // Google Places API key for hours fetching (null to disable hours feature)
   // Only used by fetch-hours.py and fetch-place-ids.py, never exposed client-side.
   // The actual API key should be stored as a GitHub repo secret: GOOGLE_PLACES_API_KEY
