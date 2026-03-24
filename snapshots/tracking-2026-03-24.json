@@ -6,7 +6,7 @@
     "CAYA Restaurant": {
       "restaurant-detail": 1,
       "sidebar-view": 3,
-      "view": 42,
+      "view": 43,
       "website": 1
     },
     "Carp Moon Caf\u00e9": {
@@ -16,8 +16,8 @@
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 6,
       "directions-google": 1,
-      "sidebar-view": 6,
-      "view": 79
+      "sidebar-view": 7,
+      "view": 80
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 2,
@@ -34,23 +34,25 @@
     },
     "Dune Coffee (Anacapa)": {
       "share": 1,
-      "view": 76
+      "view": 77
     },
     "Dune Coffee (Calle Real)": {
+      "sidebar-view": 1,
       "view": 39
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 76
+      "view": 81
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
+      "sidebar-view": 1,
       "view": 48
     },
     "Goodland Waffles & Melts": {
       "deeplink": 2,
       "restaurant-detail": 1,
-      "view": 67
+      "view": 71
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -61,7 +63,7 @@
       "deeplink": 1,
       "directions-google": 1,
       "sidebar-view": 1,
-      "view": 81
+      "view": 82
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
@@ -70,7 +72,7 @@
     "Lighthouse Coffee (Haley)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 57
+      "view": 58
     },
     "Lighthouse Coffee (Turnpike)": {
       "deeplink": 1,
@@ -96,7 +98,7 @@
     "Renaud's Patisserie (1324 State)": {
       "sidebar-view": 1,
       "upvote": 1,
-      "view": 71
+      "view": 72
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 1,
@@ -116,13 +118,13 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 3,
-      "view": 90,
+      "view": 95,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
       "share": 1,
       "sidebar-view": 2,
-      "view": 85
+      "view": 87
     },
     "Third Window Brewing (Carpinteria)": {
       "sidebar-view": 1,
@@ -159,7 +161,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-24T02:29:05Z",
+  "timestamp": "2026-03-24T04:56:56Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
