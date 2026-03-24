@@ -26,7 +26,7 @@
     "Del Pueblo Caf\u00e9": {
       "instagram": 1,
       "sidebar-view": 4,
-      "view": 55,
+      "view": 56,
       "website": 3
     },
     "Downtown": {
@@ -66,7 +66,7 @@
       "deeplink": 1,
       "directions-google": 1,
       "sidebar-view": 1,
-      "view": 87
+      "view": 88
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
@@ -80,7 +80,7 @@
     },
     "Lighthouse Coffee (Turnpike)": {
       "deeplink": 1,
-      "view": 53,
+      "view": 54,
       "website": 1
     },
     "Lucky Llama Coffee House": {
@@ -103,7 +103,7 @@
       "directions-google": 1,
       "sidebar-view": 2,
       "upvote": 1,
-      "view": 74
+      "view": 75
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 2,
@@ -124,7 +124,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 3,
-      "view": 95,
+      "view": 96,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -169,7 +169,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-24T15:02:17Z",
+  "timestamp": "2026-03-24T17:03:54Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
