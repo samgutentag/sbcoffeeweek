@@ -136,7 +136,7 @@
       "directions-google": 1,
       "share": 1,
       "sidebar-view": 4,
-      "view": 97
+      "view": 98
     },
     "Third Window Brewing (Carpinteria)": {
       "sidebar-view": 1,
@@ -145,7 +145,7 @@
     "Third Window Brewing (Santa Barbara)": {
       "deeplink": 3,
       "sidebar-view": 3,
-      "view": 66
+      "view": 67
     },
     "Upper State": {
       "filter-area": 3
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-25T20:43:18Z",
+  "timestamp": "2026-03-25T21:43:40Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
