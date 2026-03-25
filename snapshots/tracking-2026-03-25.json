@@ -1,7 +1,7 @@
 {
   "detail": {
     "All": {
-      "filter-area": 4
+      "filter-area": 5
     },
     "CAYA Restaurant": {
       "restaurant-detail": 1,
@@ -13,77 +13,77 @@
       "sidebar-view": 2,
       "view": 18
     },
-    "Carpinteria": {
-      "filter-area": 1
-    },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
       "deeplink": 6,
       "directions-google": 3,
       "sidebar-view": 8,
-      "view": 84
+      "view": 86
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
-      "sidebar-view": 2,
+      "sidebar-view": 3,
       "view": 55
     },
     "Del Pueblo Caf\u00e9": {
       "instagram": 1,
-      "sidebar-view": 4,
-      "view": 56,
+      "sidebar-view": 5,
+      "view": 58,
       "website": 3
     },
     "Downtown": {
-      "filter-area": 2
+      "filter-area": 3
     },
     "Dune Coffee (Anacapa)": {
       "directions-google": 1,
       "share": 1,
-      "view": 82
+      "view": 90
     },
     "Dune Coffee (Calle Real)": {
-      "sidebar-view": 1,
+      "sidebar-view": 2,
       "view": 41
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 82
+      "view": 85
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
       "sidebar-view": 1,
-      "view": 51
+      "view": 50
+    },
+    "Goleta": {
+      "filter-area": 2
     },
     "Goodland Waffles & Melts": {
       "deeplink": 2,
       "directions-google": 2,
       "restaurant-detail": 1,
-      "sidebar-view": 1,
-      "view": 76
+      "sidebar-view": 2,
+      "view": 79
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 54
+      "view": 53
     },
     "Lighthouse Coffee (Chapala)": {
       "deeplink": 1,
       "directions-google": 1,
       "sidebar-view": 1,
-      "view": 91
+      "view": 97
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
-      "view": 49
+      "view": 48
     },
     "Lighthouse Coffee (Haley)": {
       "deeplink": 1,
       "directions-google": 2,
-      "sidebar-view": 2,
+      "sidebar-view": 3,
       "view": 64
     },
     "Lighthouse Coffee (Turnpike)": {
       "deeplink": 1,
-      "view": 51,
+      "view": 57,
       "website": 1
     },
     "Lucky Llama Coffee House": {
@@ -93,49 +93,49 @@
     "Marisella": {
       "instagram": 1,
       "sidebar-view": 3,
-      "view": 42
+      "view": 40
     },
     "Montecito": {
-      "filter-area": 1
+      "filter-area": 2
     },
     "Paloma": {
       "sidebar-view": 2,
-      "view": 76
+      "view": 80
     },
     "Renaud's Patisserie (1324 State)": {
       "directions-google": 1,
-      "sidebar-view": 3,
+      "sidebar-view": 4,
       "upvote": 1,
-      "view": 76
+      "view": 77
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 1,
-      "view": 43
+      "view": 49
     },
     "Renaud's Patisserie (Coast Village)": {
-      "deeplink": 17,
+      "deeplink": 18,
       "sidebar-view": 1,
-      "view": 49
+      "view": 48
     },
     "Renaud's Patisserie (Gelson's)": {
       "sidebar-view": 1,
-      "view": 42
+      "view": 44
     },
     "Sama Sama Kitchen": {
       "deeplink": 1,
       "restaurant-detail": 1,
-      "sidebar-view": 3,
-      "view": 106,
+      "sidebar-view": 4,
+      "view": 101,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
       "deeplink": 1,
       "directions-google": 1,
       "share": 1,
-      "sidebar-view": 3,
-      "view": 94
+      "sidebar-view": 4,
+      "view": 95
     },
     "Third Window Brewing (Carpinteria)": {
       "sidebar-view": 1,
@@ -143,17 +143,17 @@
     },
     "Third Window Brewing (Santa Barbara)": {
       "deeplink": 3,
-      "sidebar-view": 2,
-      "view": 64
+      "sidebar-view": 3,
+      "view": 65
     },
     "Upper State": {
-      "filter-area": 2
+      "filter-area": 3
     },
     "coffeeAsCocktail": {
-      "filter-tag": 3
+      "filter-tag": 2
     },
     "coffeeWithFood": {
-      "filter-tag": 6
+      "filter-tag": 5
     },
     "dinner": {
       "filter-hours": 2
@@ -175,7 +175,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-25T02:34:14Z",
+  "timestamp": "2026-03-25T04:57:33Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
