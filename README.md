@@ -614,12 +614,18 @@ The QR code in the HTML also uses a dynamically generated one from `api.qrserver
 ### Winding Down After Your Event
 
 1. Run a final snapshot: go to **Actions** tab → **Snapshot Tracking Data** → **Run workflow**
-2. Set `trackUrl: null` and `cfAnalyticsToken: null` in `config.js`
-3. Run `python3 apply-theme.py`
-4. Comment out cron schedules in both workflow files
-5. Add early return + comment out `writeDataPoint` in `workers/track/index.js`
-6. Deploy Worker: `cd workers/track && wrangler deploy`
-7. Commit and push
+2. Snapshot hourly data for the stats dashboard charts (do this **before** disabling `trackUrl`):
+   ```bash
+   ./snapshot-hourly.sh
+   git add snapshots/hourly-events.json snapshots/hourly-labels.json
+   ```
+   This fetches hourly action data and per-filter-label data from the Worker, scoped to your event dates from `config.js`. The stats page loads these files automatically when the event is concluded — no more Worker calls needed for charts.
+3. Set `trackUrl: null` and `cfAnalyticsToken: null` in `config.js`
+4. Run `python3 apply-theme.py`
+5. Comment out cron schedules in both workflow files
+6. Add early return + comment out `writeDataPoint` in `workers/track/index.js`
+7. Deploy Worker: `cd workers/track && wrangler deploy`
+8. Commit and push
 
 ---
 
