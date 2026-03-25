@@ -115,7 +115,7 @@
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 1,
-      "view": 45
+      "view": 46
     },
     "Renaud's Patisserie (Coast Village)": {
       "deeplink": 17,
@@ -124,7 +124,7 @@
     },
     "Renaud's Patisserie (Gelson's)": {
       "sidebar-view": 1,
-      "view": 43
+      "view": 44
     },
     "Sama Sama Kitchen": {
       "deeplink": 1,
@@ -178,7 +178,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-25T06:06:38Z",
+  "timestamp": "2026-03-25T07:55:23Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
