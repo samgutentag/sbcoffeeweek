@@ -17,7 +17,7 @@
       "deeplink": 6,
       "directions-google": 3,
       "sidebar-view": 8,
-      "view": 86
+      "view": 87
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 3,
@@ -36,7 +36,7 @@
       "directions-google": 1,
       "share": 1,
       "sidebar-view": 1,
-      "view": 94
+      "view": 98
     },
     "Dune Coffee (Calle Real)": {
       "sidebar-view": 2,
@@ -44,7 +44,7 @@
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 86
+      "view": 88
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -59,7 +59,7 @@
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 80
+      "view": 82
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -70,7 +70,7 @@
       "deeplink": 1,
       "directions-google": 1,
       "sidebar-view": 1,
-      "view": 102
+      "view": 106
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
@@ -80,7 +80,7 @@
       "deeplink": 1,
       "directions-google": 2,
       "sidebar-view": 3,
-      "view": 65
+      "view": 66
     },
     "Lighthouse Coffee (Turnpike)": {
       "deeplink": 1,
@@ -101,7 +101,7 @@
     },
     "Paloma": {
       "sidebar-view": 2,
-      "view": 81
+      "view": 83
     },
     "Renaud's Patisserie (1324 State)": {
       "directions-google": 1,
@@ -128,7 +128,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 4,
-      "view": 101,
+      "view": 103,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -136,7 +136,7 @@
       "directions-google": 1,
       "share": 1,
       "sidebar-view": 4,
-      "view": 98
+      "view": 99
     },
     "Third Window Brewing (Carpinteria)": {
       "sidebar-view": 1,
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-25T21:43:40Z",
+  "timestamp": "2026-03-25T22:41:11Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
