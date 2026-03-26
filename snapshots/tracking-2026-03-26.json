@@ -55,11 +55,11 @@
       "filter-area": 2
     },
     "Goodland Waffles & Melts": {
-      "deeplink": 2,
+      "deeplink": 3,
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 85
+      "view": 86
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-26T13:25:46Z",
+  "timestamp": "2026-03-26T15:08:57Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
