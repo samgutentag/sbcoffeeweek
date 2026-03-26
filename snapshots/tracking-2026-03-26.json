@@ -6,7 +6,7 @@
     "CAYA Restaurant": {
       "restaurant-detail": 1,
       "sidebar-view": 3,
-      "view": 44,
+      "view": 46,
       "website": 1
     },
     "Carp Moon Caf\u00e9": {
@@ -30,7 +30,7 @@
       "website": 3
     },
     "Downtown": {
-      "filter-area": 4
+      "filter-area": 5
     },
     "Dune Coffee (Anacapa)": {
       "directions-google": 1,
@@ -52,7 +52,7 @@
       "view": 52
     },
     "Goleta": {
-      "filter-area": 2
+      "filter-area": 4
     },
     "Goodland Waffles & Melts": {
       "deeplink": 3,
@@ -64,7 +64,7 @@
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
       "sidebar-view": 1,
-      "view": 53
+      "view": 55
     },
     "Lighthouse Coffee (Chapala)": {
       "deeplink": 1,
@@ -148,7 +148,7 @@
       "view": 67
     },
     "Upper State": {
-      "filter-area": 3
+      "filter-area": 4
     },
     "coffeeAsCocktail": {
       "filter-tag": 2
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-26T15:08:57Z",
+  "timestamp": "2026-03-26T17:07:10Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
