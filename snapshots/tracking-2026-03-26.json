@@ -14,10 +14,10 @@
       "view": 18
     },
     "Crushcakes & Caf\u00e9 (Anacapa)": {
-      "deeplink": 6,
+      "deeplink": 7,
       "directions-google": 3,
       "sidebar-view": 8,
-      "view": 88
+      "view": 89
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 3,
@@ -44,7 +44,7 @@
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 89
+      "view": 91
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -59,7 +59,7 @@
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 83
+      "view": 85
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-26T05:10:07Z",
+  "timestamp": "2026-03-26T07:15:10Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
