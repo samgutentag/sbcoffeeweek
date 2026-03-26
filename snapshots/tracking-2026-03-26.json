@@ -17,7 +17,7 @@
       "deeplink": 7,
       "directions-google": 3,
       "sidebar-view": 8,
-      "view": 89
+      "view": 90
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 3,
@@ -44,7 +44,7 @@
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 91
+      "view": 92
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -59,7 +59,7 @@
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 86
+      "view": 88
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 1,
@@ -107,28 +107,28 @@
       "directions-google": 1,
       "sidebar-view": 4,
       "upvote": 1,
-      "view": 78
+      "view": 79
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 1,
-      "view": 50
+      "view": 51
     },
     "Renaud's Patisserie (Coast Village)": {
       "deeplink": 19,
       "sidebar-view": 1,
-      "view": 50
+      "view": 51
     },
     "Renaud's Patisserie (Gelson's)": {
       "sidebar-view": 1,
-      "view": 45
+      "view": 47
     },
     "Sama Sama Kitchen": {
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 4,
-      "view": 104,
+      "view": 107,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-26T17:07:10Z",
+  "timestamp": "2026-03-26T19:12:59Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
