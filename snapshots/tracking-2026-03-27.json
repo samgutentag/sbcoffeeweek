@@ -74,7 +74,7 @@
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
-      "view": 50
+      "view": 51
     },
     "Lighthouse Coffee (Haley)": {
       "deeplink": 1,
@@ -136,7 +136,7 @@
       "directions-google": 1,
       "share": 1,
       "sidebar-view": 4,
-      "view": 102
+      "view": 103
     },
     "Third Window Brewing (Carpinteria)": {
       "sidebar-view": 1,
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-27T14:54:34Z",
+  "timestamp": "2026-03-27T15:56:18Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
