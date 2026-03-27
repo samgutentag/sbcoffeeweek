@@ -17,7 +17,7 @@
       "deeplink": 7,
       "directions-google": 3,
       "sidebar-view": 8,
-      "view": 90
+      "view": 91
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 3,
@@ -107,7 +107,7 @@
       "directions-google": 1,
       "sidebar-view": 4,
       "upvote": 1,
-      "view": 79
+      "view": 80
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 2,
@@ -128,7 +128,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 4,
-      "view": 107,
+      "view": 108,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-27T15:56:18Z",
+  "timestamp": "2026-03-27T17:01:31Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
