@@ -20,7 +20,7 @@
       "deeplink": 7,
       "directions-google": 3,
       "sidebar-view": 8,
-      "view": 93
+      "view": 94
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 3,
@@ -40,7 +40,7 @@
       "directions-google": 1,
       "share": 1,
       "sidebar-view": 1,
-      "view": 101
+      "view": 103
     },
     "Dune Coffee (Calle Real)": {
       "sidebar-view": 2,
@@ -48,7 +48,7 @@
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
-      "view": 96
+      "view": 97
     },
     "Dune Coffee (Storke)": {
       "directions-google": 1,
@@ -63,7 +63,7 @@
       "directions-google": 2,
       "restaurant-detail": 1,
       "sidebar-view": 2,
-      "view": 91
+      "view": 92
     },
     "Lighthouse Coffee (Calle Real)": {
       "deeplink": 2,
@@ -74,7 +74,7 @@
       "deeplink": 1,
       "directions-google": 1,
       "sidebar-view": 1,
-      "view": 110
+      "view": 112
     },
     "Lighthouse Coffee (Cliff Dr)": {
       "sidebar-view": 1,
@@ -84,7 +84,7 @@
       "deeplink": 1,
       "directions-google": 2,
       "sidebar-view": 3,
-      "view": 67
+      "view": 68
     },
     "Lighthouse Coffee (Turnpike)": {
       "deeplink": 1,
@@ -105,13 +105,13 @@
     },
     "Paloma": {
       "sidebar-view": 2,
-      "view": 86
+      "view": 88
     },
     "Renaud's Patisserie (1324 State)": {
       "directions-google": 1,
       "sidebar-view": 4,
       "upvote": 1,
-      "view": 82
+      "view": 83
     },
     "Renaud's Patisserie (3315 State)": {
       "directions-google": 2,
@@ -122,7 +122,7 @@
     "Renaud's Patisserie (Coast Village)": {
       "deeplink": 19,
       "sidebar-view": 1,
-      "view": 52
+      "view": 53
     },
     "Renaud's Patisserie (Gelson's)": {
       "sidebar-view": 1,
@@ -132,7 +132,7 @@
       "deeplink": 1,
       "restaurant-detail": 1,
       "sidebar-view": 4,
-      "view": 109,
+      "view": 110,
       "website": 1
     },
     "Santa Barbara Roasting Company": {
@@ -140,7 +140,7 @@
       "directions-google": 1,
       "share": 1,
       "sidebar-view": 4,
-      "view": 105
+      "view": 107
     },
     "Third Window Brewing (Carpinteria)": {
       "sidebar-view": 1,
@@ -149,7 +149,7 @@
     "Third Window Brewing (Santa Barbara)": {
       "deeplink": 3,
       "sidebar-view": 3,
-      "view": 68
+      "view": 69
     },
     "Upper State": {
       "filter-area": 6
@@ -180,7 +180,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-27T19:00:37Z",
+  "timestamp": "2026-03-27T20:43:12Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
