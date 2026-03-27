@@ -6,7 +6,7 @@
     "CAYA Restaurant": {
       "restaurant-detail": 1,
       "sidebar-view": 3,
-      "view": 46,
+      "view": 47,
       "website": 1
     },
     "Carp Moon Caf\u00e9": {
@@ -21,12 +21,12 @@
     },
     "Crushcakes & Caf\u00e9 (Hollister)": {
       "sidebar-view": 3,
-      "view": 56
+      "view": 58
     },
     "Del Pueblo Caf\u00e9": {
-      "instagram": 1,
+      "instagram": 2,
       "sidebar-view": 5,
-      "view": 58,
+      "view": 59,
       "website": 3
     },
     "Downtown": {
@@ -40,7 +40,7 @@
     },
     "Dune Coffee (Calle Real)": {
       "sidebar-view": 2,
-      "view": 41
+      "view": 42
     },
     "Dune Coffee (State St)": {
       "sidebar-view": 1,
@@ -62,9 +62,9 @@
       "view": 88
     },
     "Lighthouse Coffee (Calle Real)": {
-      "deeplink": 1,
+      "deeplink": 2,
       "sidebar-view": 1,
-      "view": 55
+      "view": 57
     },
     "Lighthouse Coffee (Chapala)": {
       "deeplink": 1,
@@ -176,7 +176,7 @@
       "tip-jar-open": 3
     }
   },
-  "timestamp": "2026-03-27T11:43:23Z",
+  "timestamp": "2026-03-27T13:15:00Z",
   "upvotes": {
     "Renaud's Patisserie (1324 State)": 1
   }
