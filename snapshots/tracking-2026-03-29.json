@@ -1,0 +1,188 @@
+{
+  "detail": {
+    "All": {
+      "filter-area": 5
+    },
+    "CAYA Restaurant": {
+      "restaurant-detail": 1,
+      "sidebar-view": 3,
+      "view": 51,
+      "website": 1
+    },
+    "Carp Moon Caf\u00e9": {
+      "sidebar-view": 2,
+      "view": 21
+    },
+    "Carpinteria": {
+      "filter-area": 1
+    },
+    "Crushcakes & Caf\u00e9 (Anacapa)": {
+      "deeplink": 7,
+      "directions-google": 3,
+      "sidebar-view": 8,
+      "view": 97
+    },
+    "Crushcakes & Caf\u00e9 (Hollister)": {
+      "sidebar-view": 3,
+      "view": 62
+    },
+    "Del Pueblo Caf\u00e9": {
+      "deeplink": 1,
+      "directions-google": 1,
+      "instagram": 2,
+      "sidebar-view": 5,
+      "view": 64,
+      "website": 3
+    },
+    "Downtown": {
+      "filter-area": 8
+    },
+    "Dune Coffee (Anacapa)": {
+      "directions-google": 1,
+      "share": 1,
+      "sidebar-view": 1,
+      "view": 105
+    },
+    "Dune Coffee (Calle Real)": {
+      "sidebar-view": 2,
+      "view": 44
+    },
+    "Dune Coffee (State St)": {
+      "sidebar-view": 1,
+      "view": 101
+    },
+    "Dune Coffee (Storke)": {
+      "directions-google": 1,
+      "sidebar-view": 1,
+      "view": 54
+    },
+    "Goleta": {
+      "filter-area": 4
+    },
+    "Goodland Waffles & Melts": {
+      "deeplink": 3,
+      "directions-google": 2,
+      "restaurant-detail": 1,
+      "sidebar-view": 2,
+      "view": 99
+    },
+    "Lighthouse Coffee (Calle Real)": {
+      "deeplink": 2,
+      "sidebar-view": 1,
+      "view": 63
+    },
+    "Lighthouse Coffee (Chapala)": {
+      "deeplink": 1,
+      "directions-google": 1,
+      "sidebar-view": 1,
+      "view": 112
+    },
+    "Lighthouse Coffee (Cliff Dr)": {
+      "sidebar-view": 1,
+      "view": 52
+    },
+    "Lighthouse Coffee (Haley)": {
+      "deeplink": 1,
+      "directions-google": 2,
+      "sidebar-view": 3,
+      "view": 69
+    },
+    "Lighthouse Coffee (Turnpike)": {
+      "deeplink": 1,
+      "view": 59,
+      "website": 1
+    },
+    "Lucky Llama Coffee House": {
+      "sidebar-view": 1,
+      "view": 19
+    },
+    "Marisella": {
+      "instagram": 1,
+      "sidebar-view": 3,
+      "view": 45
+    },
+    "Montecito": {
+      "filter-area": 3
+    },
+    "Paloma": {
+      "sidebar-view": 2,
+      "view": 89
+    },
+    "Renaud's Patisserie (1324 State)": {
+      "directions-google": 1,
+      "sidebar-view": 4,
+      "upvote": 1,
+      "view": 85
+    },
+    "Renaud's Patisserie (3315 State)": {
+      "directions-google": 2,
+      "restaurant-detail": 1,
+      "sidebar-view": 1,
+      "view": 52
+    },
+    "Renaud's Patisserie (Coast Village)": {
+      "deeplink": 20,
+      "sidebar-view": 1,
+      "view": 54
+    },
+    "Renaud's Patisserie (Gelson's)": {
+      "sidebar-view": 1,
+      "view": 48
+    },
+    "Sama Sama Kitchen": {
+      "deeplink": 1,
+      "restaurant-detail": 1,
+      "sidebar-view": 4,
+      "view": 113,
+      "website": 1
+    },
+    "Santa Barbara Roasting Company": {
+      "deeplink": 1,
+      "directions-google": 1,
+      "share": 1,
+      "sidebar-view": 4,
+      "view": 108
+    },
+    "Third Window Brewing (Carpinteria)": {
+      "sidebar-view": 1,
+      "view": 23
+    },
+    "Third Window Brewing (Santa Barbara)": {
+      "deeplink": 3,
+      "sidebar-view": 3,
+      "view": 69
+    },
+    "Upper State": {
+      "filter-area": 6
+    },
+    "coffeeAsCocktail": {
+      "filter-tag": 2
+    },
+    "coffeeWithFood": {
+      "filter-tag": 5
+    },
+    "dinner": {
+      "filter-hours": 2
+    },
+    "justCoffee": {
+      "filter-tag": 3
+    },
+    "open": {
+      "filter-hours": 5
+    },
+    "stats": {
+      "insights-view": 10,
+      "post-event-view": 4,
+      "restaurants-view": 8,
+      "stats-view": 14,
+      "trends-view": 8
+    },
+    "tip-jar": {
+      "tip-jar-open": 3
+    }
+  },
+  "timestamp": "2026-03-29T02:47:12Z",
+  "upvotes": {
+    "Renaud's Patisserie (1324 State)": 1
+  }
+}
