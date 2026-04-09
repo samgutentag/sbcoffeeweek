@@ -1,9 +1,9 @@
 name: Snapshot Tracking Data
 
 on:
-  schedule:
-    # Hourly during event week — adjust date range for next event
-    - cron: "0 * 19-29 3 *"
+  # schedule:
+  #   # Hourly during event week — adjust date range for next event
+  #   - cron: "0 * 19-29 3 *"
   workflow_dispatch:
 
 permissions:

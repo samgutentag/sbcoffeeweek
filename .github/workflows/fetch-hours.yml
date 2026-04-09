@@ -1,9 +1,9 @@
 name: Fetch Restaurant Hours
 
 on:
-  schedule:
-    # Daily at 6am PT (13:00 UTC) — adjust date range for next event
-    - cron: "0 13 17-29 3 *"
+  # schedule:
+  #   # Daily at 6am PT (13:00 UTC) — adjust date range for next event
+  #   - cron: "0 13 17-29 3 *"
   workflow_dispatch:
 
 permissions:
