@@ -45,11 +45,19 @@ const THEME = {
   // Print page
   printTitle: "SB Coffee Week 2026 — My Picks",
 
+  // Event timezone — phase changes (pre/during/post) happen on this clock,
+  // not the viewer's. IANA name, e.g. "America/Los_Angeles".
+  timeZone: "America/Los_Angeles",
+
   // Event start date — used for analytics/stats time filters (ISO date)
   eventStartDate: "2026-03-19",
 
   // Event end date — concluded banner/modal auto-shows after this date (ISO date, null to never show)
   eventEndDate: "2026-03-28",
+
+  // Archived — event is wound down; drives the off-season state while
+  // trackUrl stays set so stats/admin keep reading historical data.
+  archived: true,
 
   // Map center and zoom level
   mapCenter: [34.42, -119.7],
@@ -96,25 +104,5 @@ const THEME = {
 // Next event promo (shown in off-season banner). null for generic "check back" message.
 THEME.nextEvent = null;
 
-function getEventState() {
-  var now = new Date();
-  var liveDate = THEME.dataLiveDate ? new Date(THEME.dataLiveDate + "T00:01:00") : null;
-  var startDate = THEME.eventStartDate ? new Date(THEME.eventStartDate + "T00:00:00") : null;
-  var endDate = THEME.eventEndDate ? new Date(THEME.eventEndDate + "T23:59:59") : null;
-  if (!THEME.trackUrl) return "off-season";
-  if (endDate && now > endDate) return "post-event";
-  if (startDate && now >= startDate) return "during";
-  if (liveDate && now >= liveDate) return "pre-event";
-  return "off-season";
-}
-
-function canCastVotes() {
-  var state = getEventState();
-  if (state === "pre-event" || state === "during") return true;
-  if (state === "post-event" && THEME.eventEndDate) {
-    var grace = new Date(THEME.eventEndDate + "T23:59:59");
-    grace.setDate(grace.getDate() + 5);
-    return new Date() <= grace;
-  }
-  return false;
-}
+// Participation history — restaurant name -> first year (returning badge at 2+ years).
+THEME.firstYearByName = {};

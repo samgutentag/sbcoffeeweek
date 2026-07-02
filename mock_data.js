@@ -1,7 +1,7 @@
-// SB Burger Week 2026 — MOCK DATA (mock burgers + descriptions)
+// MOCK DATA for local development — obviously fake venues and menus.
 // Event: February 19–25, 2026
 // Source: Santa Barbara Independent
-const SOURCE_URL = "https://www.independent.com/2026/02/05/burger-week-2026/";
+const SOURCE_URL = "https://example.com/your-event-article";
 
 const AREA_COLORS = {
   "Downtown SB": "#e63946",

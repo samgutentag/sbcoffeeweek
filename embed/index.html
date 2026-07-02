@@ -107,7 +107,7 @@
     <div class="mobile-notice" id="mobileNotice">
       This embed preview works best on desktop.
       <br />
-      <a id="mobileFullMapLink" href="https://sbburgerweekmap.com/">Open the full map instead &rarr;</a>
+      <a id="mobileFullMapLink" href="https://sbcoffeeweekmap.com/">Open the full map instead &rarr;</a>
     </div>
 
     <div class="embed-wrapper">
@@ -133,6 +133,7 @@
     <pre id="embedSnippet"><code></code></pre>
 
     <script src="../config.js"></script>
+    <script src="../event-state.js"></script>
     <script>
       (function () {
         var t = THEME;
@@ -143,7 +144,7 @@
         document.getElementById("embedShowcaseTitle").textContent = "Embed the " + t.eventName + " Map";
         document.getElementById("embedPreview").title = mapTitle;
         var mobileLink = document.getElementById("mobileFullMapLink");
-        if (mobileLink) mobileLink.href = t.siteUrl + "/";
+        if (mobileLink) mobileLink.href = t.siteUrl + "/?src=embed";
         var embedContact = document.getElementById("embedContact");
         if (embedContact && t.contactDomain) {
           var year = new Date().getFullYear();

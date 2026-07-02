@@ -1,132 +1,126 @@
 #!/usr/bin/env python3
 """Snapshot hourly tracking data from the Cloudflare Worker for a concluded event.
 
-Reads event dates and filter labels from config.js / data files, fetches hourly
-data from the Worker, and saves to snapshots/ for permanent archival.
+Called by snapshot-hourly.sh. Reads trackUrl, event dates, and filter keys from
+config.js, fetches hourly aggregates from the Worker, and writes:
 
-The stats dashboard loads these files automatically when the event is concluded.
+  snapshots/hourly-events.json   — verbatim ?hourly=true response: {hour: {action: count}}
+  snapshots/hourly-labels.json   — {label: {hour: count}} for every filter label
+                                   (area names + tagFilters keys + hoursFilters keys)
+
+The captured window is wider than the event itself (7 days before the earlier of
+dataLiveDate/eventStartDate, through today) so the stats page's All time and
+Pre-event ranges still have data; the client filters to a range on its own.
+
+Usage: snapshot-hourly.py <repo-root> [--start YYYY-MM-DD] [--end YYYY-MM-DD]
 """
 
-import glob
 import json
-import os
 import re
-import subprocess
 import sys
+import urllib.error
 import urllib.parse
+import urllib.request
+from datetime import date, timedelta
+from pathlib import Path
 
 
-def extract_config(config_path):
-    """Extract trackUrl, eventStartDate, eventEndDate from config.js."""
-    with open(config_path) as f:
-        text = f.read()
-
-    def get(key):
-        m = re.search(rf'{key}:\s*"([^"]+)"', text)
+def parse_config(config_text):
+    def scalar(name):
+        m = re.search(r'^\s*' + name + r':\s*"([^"]+)"', config_text, re.M)
         return m.group(1) if m else None
 
-    return get("trackUrl"), get("eventStartDate"), get("eventEndDate"), text
+    def block_keys(block_name):
+        m = re.search(block_name + r':\s*\[(.*?)\]', config_text, re.S)
+        if not m:
+            return []
+        return re.findall(r'key:\s*"([^"]+)"', m.group(1))
+
+    track_url = scalar("trackUrl")
+    if not track_url:
+        sys.exit("config.js has trackUrl: null — snapshot before disabling tracking (README wind-down step 2 comes before step 3)")
+    start = scalar("eventStartDate")
+    end = scalar("eventEndDate")
+    if not start or not end:
+        sys.exit("config.js must set eventStartDate and eventEndDate")
+    return {
+        "trackUrl": track_url.rstrip("/"),
+        "eventStartDate": start,
+        "eventEndDate": end,
+        "dataLiveDate": scalar("dataLiveDate"),
+        "filterKeys": block_keys("tagFilters") + block_keys("hoursFilters"),
+    }
 
 
-def extract_labels(project_dir, config_text):
-    """Build filter labels from AREA_COLORS in data files + tagFilters/hoursFilters in config."""
-    labels = []
-
-    # Area names from AREA_COLORS in data files (handles both quoted and unquoted keys)
-    for data_file in sorted(glob.glob(os.path.join(project_dir, "data*.js"))):
-        with open(data_file) as f:
-            content = f.read()
-        area_match = re.search(r"AREA_COLORS\s*=\s*\{([^}]+)\}", content)
-        if area_match:
-            block = area_match.group(1)
-            # Match quoted keys: "Downtown SB": or 'Downtown SB':
-            for m in re.finditer(r'''["']([^"']+)["']\s*:''', block):
-                area = m.group(1)
-                if area not in labels:
-                    labels.append(area)
-            # Match unquoted keys: Goleta:
-            for m in re.finditer(r"(?:^|,)\s*(\w+)\s*:", block):
-                area = m.group(1)
-                if area not in labels:
-                    labels.append(area)
-            break
-
-    # Tag and hours filter keys from config.js
-    for m in re.finditer(r'''key:\s*["']([^"']+)["']''', config_text):
-        key = m.group(1)
-        if key not in labels:
-            labels.append(key)
-
-    return labels
+def parse_area_names(repo, event_start):
+    year = event_start[:4]
+    for candidate in (repo / f"data-{year}.js", repo / "data.js"):
+        if not candidate.exists():
+            continue
+        m = re.search(r'AREA_COLORS\s*=\s*\{(.*?)\}', candidate.read_text(), re.S)
+        if m:
+            block = m.group(1)
+            # keys may be quoted ("Funk Zone":) or bare identifiers (Downtown:)
+            names = re.findall(r'["\']([^"\']+)["\']\s*:', block)
+            for bare in re.findall(r'(?:^|,)\s*(\w+)\s*:', block):
+                if bare not in names:
+                    names.append(bare)
+            return names
+    return []
 
 
 def fetch_json(url):
-    """Fetch JSON from a URL using curl."""
-    result = subprocess.run(["curl", "-s", url], capture_output=True, text=True)
-    return json.loads(result.stdout)
+    # Cloudflare 403s the default Python-urllib user agent
+    req = urllib.request.Request(url, headers={"User-Agent": "sbfoodweek-snapshot/1.0"})
+    try:
+        with urllib.request.urlopen(req, timeout=30) as resp:
+            return json.loads(resp.read().decode("utf-8"))
+    except (urllib.error.URLError, json.JSONDecodeError) as e:
+        raise RuntimeError(f"Worker request failed ({url}): {e}") from e
 
 
 def main():
-    project_dir = sys.argv[1] if len(sys.argv) > 1 else os.getcwd()
-    config_path = os.path.join(project_dir, "config.js")
-    snapshots_dir = os.path.join(project_dir, "snapshots")
+    if len(sys.argv) < 2:
+        sys.exit(__doc__.strip().splitlines()[-1])
+    repo = Path(sys.argv[1])
+    overrides = dict(zip(sys.argv[2::2], sys.argv[3::2]))
 
-    track_url, start_date, end_date, config_text = extract_config(config_path)
+    cfg = parse_config((repo / "config.js").read_text())
 
-    if not track_url or not start_date or not end_date:
-        print("Error: config.js must have trackUrl, eventStartDate, and eventEndDate set.")
-        print(f"  trackUrl:       {track_url or '<missing>'}")
-        print(f"  eventStartDate: {start_date or '<missing>'}")
-        print(f"  eventEndDate:   {end_date or '<missing>'}")
-        sys.exit(1)
+    anchor = min(d for d in (cfg["dataLiveDate"], cfg["eventStartDate"]) if d)
+    start = overrides.get("--start") or (date.fromisoformat(anchor) - timedelta(days=7)).isoformat()
+    end = overrides.get("--end") or date.today().isoformat()
+    window = f"&start={start}&end={end}"
+    base = cfg["trackUrl"] + "/?hourly=true"
 
-    os.makedirs(snapshots_dir, exist_ok=True)
+    print(f"Fetching hourly data from {cfg['trackUrl']} ({start} → {end})")
+    try:
+        events = fetch_json(base + window)
+    except RuntimeError as e:
+        sys.exit(str(e))
+    if not events:
+        sys.exit("Worker returned no hourly data — check trackUrl and the date range")
 
-    # Fetch hourly event data
-    print(f"Fetching hourly event data ({start_date} to {end_date})...")
-    hourly_file = os.path.join(snapshots_dir, "hourly-events.json")
-    hourly_data = fetch_json(f"{track_url}?hourly=true&start={start_date}&end={end_date}")
-    with open(hourly_file, "w") as f:
-        json.dump(hourly_data, f, indent=2)
-    print(f"  Saved {len(hourly_data)} hours to snapshots/hourly-events.json")
-
-    # Fetch per-label hourly data
-    print("Fetching per-label hourly data...")
-    labels = extract_labels(project_dir, config_text)
+    labels = parse_area_names(repo, cfg["eventStartDate"]) + cfg["filterKeys"]
     if not labels:
-        print("  Warning: no filter labels found in config.js/data files")
-        with open(os.path.join(snapshots_dir, "hourly-labels.json"), "w") as f:
-            json.dump({}, f)
-        return
-
-    print(f"  Found {len(labels)} labels: {labels}")
-
-    label_data = {}
+        sys.exit("No filter labels found (AREA_COLORS / tagFilters / hoursFilters) — check config.js and the data file")
+    by_label = {}
     for label in labels:
-        encoded = urllib.parse.quote(label)
-        url = f"{track_url}?hourly=true&label={encoded}&start={start_date}&end={end_date}"
         try:
-            data = fetch_json(url)
-            if data and len(data) > 0:
-                label_data[label] = data
-                print(f"  {label}: {len(data)} hours")
-            else:
-                print(f"  {label}: empty")
-        except Exception as e:
-            print(f"  {label}: failed ({e})")
+            data = fetch_json(base + "&label=" + urllib.parse.quote(label) + window)
+        except RuntimeError as e:
+            print(f"  {label}: failed ({e}) — continuing")
+            continue
+        if data:
+            by_label[label] = data
+        print(f"  {label}: {sum(data.values()) if data else 0} events")
 
-    labels_file = os.path.join(snapshots_dir, "hourly-labels.json")
-    with open(labels_file, "w") as f:
-        json.dump(label_data, f, indent=2)
-    print(f"  Saved {len(label_data)} labels to snapshots/hourly-labels.json")
-
-    print()
-    print("Done! Snapshot files:")
-    print("  snapshots/hourly-events.json  — hourly action counts (all metrics)")
-    print("  snapshots/hourly-labels.json  — hourly counts per filter label")
-    print()
-    print("These are used by the stats dashboard when the event is concluded.")
-    print("Commit them to the repo: git add snapshots/hourly-*.json")
+    out_dir = repo / "snapshots"
+    out_dir.mkdir(exist_ok=True)
+    (out_dir / "hourly-events.json").write_text(json.dumps(events, indent=2) + "\n")
+    (out_dir / "hourly-labels.json").write_text(json.dumps(by_label, indent=2) + "\n")
+    print(f"Wrote snapshots/hourly-events.json ({len(events)} hours)")
+    print(f"Wrote snapshots/hourly-labels.json ({len(by_label)}/{len(labels)} labels with data)")
 
 
 if __name__ == "__main__":
