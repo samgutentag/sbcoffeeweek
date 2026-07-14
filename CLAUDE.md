@@ -48,7 +48,6 @@
 
 ## CSS Gotchas
 
-- Trunk linter reformats HTML attributes to multi-line — don't fight it
 - Use 2-class specificity (`.base.modifier`) when a modifier needs to override base flex/width
 - Sticky headers need `overflow: visible` on parent (not `auto/scroll`)
 - `z-index: -1` on pseudo-elements to render behind sibling controls
